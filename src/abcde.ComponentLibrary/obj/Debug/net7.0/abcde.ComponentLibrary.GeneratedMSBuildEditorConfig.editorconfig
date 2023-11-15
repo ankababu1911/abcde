@@ -1,0 +1,45 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = abcde.ComponentLibrary
+build_property.RootNamespace = abcde.ComponentLibrary
+build_property.ProjectDir = C:\Babu\Templates\New folder\src 2 new\src\abcde.ComponentLibrary\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Babu\Templates\New folder\src 2 new\src\abcde.ComponentLibrary
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Babu/Templates/New folder/src 2 new/src/abcde.ComponentLibrary/Shared/AnchorComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFuY2hvckNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Babu/Templates/New folder/src 2 new/src/abcde.ComponentLibrary/Shared/Buttons/PrimarySubmitButtonComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEJ1dHRvbnNcUHJpbWFyeVN1Ym1pdEJ1dHRvbkNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Babu/Templates/New folder/src 2 new/src/abcde.ComponentLibrary/Shared/ErrorMessageDisplayComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVycm9yTWVzc2FnZURpc3BsYXlDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Babu/Templates/New folder/src 2 new/src/abcde.ComponentLibrary/Shared/InputComponents/InputFormFloatingComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXElucHV0Q29tcG9uZW50c1xJbnB1dEZvcm1GbG9hdGluZ0NvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Babu/Templates/New folder/src 2 new/src/abcde.ComponentLibrary/User/ChangeUserPasswordComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = VXNlclxDaGFuZ2VVc2VyUGFzc3dvcmRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Babu/Templates/New folder/src 2 new/src/abcde.ComponentLibrary/User/LoginComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = VXNlclxMb2dpbkNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Babu/Templates/New folder/src 2 new/src/abcde.ComponentLibrary/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

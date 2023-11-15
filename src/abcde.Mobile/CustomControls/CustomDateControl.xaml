@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             x:Class="abcde.Mobile.CustomControls.CustomDateControl"
+             x:Name="CustomDate">
+    <VerticalStackLayout>
+        <Grid>
+            <Frame HasShadow="False" 
+                   x:Name="EntryFrame" 
+                   Style="{StaticResource FrameStyle}"/>
+
+            <!-- Entry label -->
+            <Label x:Name="PlaceHolderLabel"                   
+                   Text="{Binding Placeholder,Source={x:Reference CustomDate}}"
+                   Style="{StaticResource EntryPlaceholderStyle}"/>
+
+            <!-- Customized Entry -->
+            <Entry x:Name="TextBox" 
+                   Text="{Binding Text,Source={x:Reference CustomDate},Mode=TwoWay}"
+                   IsReadOnly="True"                   
+                   PropertyChanged="TextBox_PropertyChanged"
+                   Focused="TextBox_Focused"
+                   Unfocused="TextBox_Unfocused"
+                   TextChanged="OnTextChanged" Margin="10,5,0,0"
+                   Style="{StaticResource CustomizedEntryStyle}"/>
+
+            <Image x:Name="calendarPicker" 
+                   IsVisible="false"  
+                   Style="{StaticResource CalendarImageStyle}">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ImageButton_Clicked" />
+                </Image.GestureRecognizers>
+            </Image>
+            <DatePicker x:Name="DatePicker" MinimumDate="{x:Static system:DateTime.Today}"           
+                        IsVisible="{Binding CalendarVisible, Source={x:Reference CustomDate}}"
+                        Date="{Binding Date, Source={x:Reference CustomDate}, Mode=TwoWay}"
+                        DateSelected="DatePicker_DateSelected" 
+                        Format="0:dd.MMM.yyyy" BackgroundColor="Transparent"
+                        Style="{StaticResource DatePickerStyle}"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentView>

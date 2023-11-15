@@ -1,0 +1,51 @@
+2023-11-06 15:02:58.571 +05:30 [ERR] {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":"00000000-0000-0000-0000-000000000000","tenantId":null}
+2023-11-06 15:17:47.772 +05:30 [ERR] {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":"00000000-0000-0000-0000-000000000000","tenantId":null}
+2023-11-06 15:17:47.825 +05:30 [ERR] Message : {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":"00000000-0000-0000-0000-000000000000","tenantId":null}
+2023-11-06 15:18:39.489 +05:30 [ERR] An error occurred while saving the entity changes. See the inner exception for details.
+2023-11-06 15:18:39.523 +05:30 [ERR] Message : An error occurred while saving the entity changes. See the inner exception for details.
+2023-11-06 16:09:36.054 +05:30 [ERR] {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":"00000000-0000-0000-0000-000000000000","tenantId":null}
+2023-11-06 16:44:22.041 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 16:44:22.891 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 16:52:18.271 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-11-06 16:52:18.298 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-11-06 16:53:11.516 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 16:53:11.529 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 16:53:56.230 +05:30 [ERR] Invalid Organisation
+2023-11-06 16:53:56.265 +05:30 [ERR] Message : Invalid Organisation
+2023-11-06 16:54:41.740 +05:30 [ERR] Invalid Organisation
+2023-11-06 16:54:41.771 +05:30 [ERR] Message : Invalid Organisation
+2023-11-06 16:56:27.343 +05:30 [ERR] Invalid Organisation
+2023-11-06 16:56:27.377 +05:30 [ERR] Message : Invalid Organisation
+2023-11-06 16:58:14.874 +05:30 [ERR] The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
+2023-11-06 16:58:14.907 +05:30 [ERR] Message : The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
+2023-11-06 16:58:57.497 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 16:58:57.722 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 17:02:12.012 +05:30 [ERR] {"succeeded":false,"errors":[]}
+2023-11-06 17:02:12.047 +05:30 [ERR] Message : {"succeeded":false,"errors":[]}
+2023-11-06 17:02:38.494 +05:30 [ERR] {"succeeded":false,"errors":[]}
+2023-11-06 17:23:22.226 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 17:23:22.251 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 17:23:22.892 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 17:23:22.902 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 17:24:44.864 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 17:24:45.075 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 17:26:01.726 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 17:26:01.753 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 17:26:05.875 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 17:26:05.884 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 17:55:33.548 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 17:55:33.575 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 17:55:34.068 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 17:55:34.078 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 17:59:51.550 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 18:00:17.174 +05:30 [ERR] {"succeeded":false,"errors":[]}
+2023-11-06 18:00:17.207 +05:30 [ERR] Message : {"succeeded":false,"errors":[]}
+2023-11-06 18:01:26.935 +05:30 [ERR] {"succeeded":false,"errors":[]}
+2023-11-06 18:01:26.970 +05:30 [ERR] Message : {"succeeded":false,"errors":[]}
+2023-11-06 18:03:36.291 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 18:06:06.939 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 18:06:06.967 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 18:06:12.926 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 18:06:12.935 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-06 18:07:19.501 +05:30 [ERR] {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":"00000000-0000-0000-0000-000000000000","tenantId":null}
+2023-11-06 18:07:19.534 +05:30 [ERR] Message : {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":"00000000-0000-0000-0000-000000000000","tenantId":null}

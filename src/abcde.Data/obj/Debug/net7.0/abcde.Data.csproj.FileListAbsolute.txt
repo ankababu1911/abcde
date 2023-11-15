@@ -1,0 +1,32 @@
+C:\Babu\Templates\New folder\src 2\src\abcde.Data\bin\Debug\net7.0\abcde.Data.deps.json
+C:\Babu\Templates\New folder\src 2\src\abcde.Data\bin\Debug\net7.0\abcde.Data.runtimeconfig.json
+C:\Babu\Templates\New folder\src 2\src\abcde.Data\bin\Debug\net7.0\abcde.Data.dll
+C:\Babu\Templates\New folder\src 2\src\abcde.Data\bin\Debug\net7.0\abcde.Data.pdb
+C:\Babu\Templates\New folder\src 2\src\abcde.Data\bin\Debug\net7.0\abcde.Model.dll
+C:\Babu\Templates\New folder\src 2\src\abcde.Data\bin\Debug\net7.0\abcde.Model.pdb
+C:\Babu\Templates\New folder\src 2\src\abcde.Data\obj\Debug\net7.0\abcde.Data.csproj.AssemblyReference.cache
+C:\Babu\Templates\New folder\src 2\src\abcde.Data\obj\Debug\net7.0\abcde.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Babu\Templates\New folder\src 2\src\abcde.Data\obj\Debug\net7.0\abcde.Data.AssemblyInfoInputs.cache
+C:\Babu\Templates\New folder\src 2\src\abcde.Data\obj\Debug\net7.0\abcde.Data.AssemblyInfo.cs
+C:\Babu\Templates\New folder\src 2\src\abcde.Data\obj\Debug\net7.0\abcde.Data.csproj.CoreCompileInputs.cache
+C:\Babu\Templates\New folder\src 2\src\abcde.Data\obj\Debug\net7.0\abcde.Data.csproj.CopyComplete
+C:\Babu\Templates\New folder\src 2\src\abcde.Data\obj\Debug\net7.0\abcde.Data.dll
+C:\Babu\Templates\New folder\src 2\src\abcde.Data\obj\Debug\net7.0\refint\abcde.Data.dll
+C:\Babu\Templates\New folder\src 2\src\abcde.Data\obj\Debug\net7.0\abcde.Data.pdb
+C:\Babu\Templates\New folder\src 2\src\abcde.Data\obj\Debug\net7.0\abcde.Data.genruntimeconfig.cache
+C:\Babu\Templates\New folder\src 2\src\abcde.Data\obj\Debug\net7.0\ref\abcde.Data.dll
+C:\Babu\Templates\New folder\src 2 new\src\abcde.Data\obj\Debug\net7.0\abcde.Data.csproj.AssemblyReference.cache
+C:\Babu\Templates\New folder\src 2 new\src\abcde.Data\obj\Debug\net7.0\abcde.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Babu\Templates\New folder\src 2 new\src\abcde.Data\obj\Debug\net7.0\abcde.Data.AssemblyInfoInputs.cache
+C:\Babu\Templates\New folder\src 2 new\src\abcde.Data\obj\Debug\net7.0\abcde.Data.AssemblyInfo.cs
+C:\Babu\Templates\New folder\src 2 new\src\abcde.Data\obj\Debug\net7.0\abcde.Data.csproj.CoreCompileInputs.cache
+C:\Babu\Templates\New folder\src 2 new\src\abcde.Data\bin\Debug\net7.0\abcde.Data.deps.json
+C:\Babu\Templates\New folder\src 2 new\src\abcde.Data\bin\Debug\net7.0\abcde.Data.dll
+C:\Babu\Templates\New folder\src 2 new\src\abcde.Data\bin\Debug\net7.0\abcde.Data.pdb
+C:\Babu\Templates\New folder\src 2 new\src\abcde.Data\bin\Debug\net7.0\abcde.Model.dll
+C:\Babu\Templates\New folder\src 2 new\src\abcde.Data\bin\Debug\net7.0\abcde.Model.pdb
+C:\Babu\Templates\New folder\src 2 new\src\abcde.Data\obj\Debug\net7.0\abcde.Data.csproj.CopyComplete
+C:\Babu\Templates\New folder\src 2 new\src\abcde.Data\obj\Debug\net7.0\abcde.Data.dll
+C:\Babu\Templates\New folder\src 2 new\src\abcde.Data\obj\Debug\net7.0\refint\abcde.Data.dll
+C:\Babu\Templates\New folder\src 2 new\src\abcde.Data\obj\Debug\net7.0\abcde.Data.pdb
+C:\Babu\Templates\New folder\src 2 new\src\abcde.Data\obj\Debug\net7.0\ref\abcde.Data.dll

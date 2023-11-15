@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Back" xml:space="preserve">
+    <value>de_Zurück</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>de_Stornieren</value>
+  </data>
+  <data name="Change Password" xml:space="preserve">
+    <value>de-Passwort ändern</value>
+  </data>
+  <data name="Confirm Password" xml:space="preserve">
+    <value>de_Passwort bestätigen</value>
+  </data>
+  <data name="Confirm Verification" xml:space="preserve">
+    <value>de_Bestätigen der Uberprufung</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>de_Beschreibung</value>
+  </data>
+  <data name="Difficult" xml:space="preserve">
+    <value>de_Schwierig</value>
+  </data>
+  <data name="Difficulty" xml:space="preserve">
+    <value>de_Schwierigkeit</value>
+  </data>
+  <data name="Easy" xml:space="preserve">
+    <value>de_Einfach</value>
+  </data>
+  <data name="Email ID" xml:space="preserve">
+    <value>de_E-Mail-Identifikation</value>
+  </data>
+  <data name="Enter verification code which you have received from Email to change the password" xml:space="preserve">
+    <value>de_Geben Sie den Verifizierungscode ein, den Sie per E-Mail erhalten haben, um das Passwort zu ändern</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>de_Fehler</value>
+  </data>
+  <data name="ForgotPassword?" xml:space="preserve">
+    <value>de_Passwort vergessen?</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>de_Ziel</value>
+  </data>
+  <data name="Goal Added successfully" xml:space="preserve">
+    <value>de_Ziel erfolgreich hinzugefügt</value>
+  </data>
+  <data name="Goal Title Required" xml:space="preserve">
+    <value>de_Ziel-Titel erforderlich</value>
+  </data>
+  <data name="Goal Updated successfully" xml:space="preserve">
+    <value>de_Ziel erfolgreich aktualisiert</value>
+  </data>
+  <data name="GoalTitleShouldMinimumTwoWords" xml:space="preserve">
+    <value>de_Ziel-Titel sollte mindestens zwei Wörter enthalten</value>
+  </data>
+  <data name="HaveToDo" xml:space="preserve">
+    <value>de_Erledigen</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>de_Hoch</value>
+  </data>
+  <data name="How Important is this" xml:space="preserve">
+    <value>de_Wie wichtig ist dies ? : </value>
+  </data>
+  <data name="How Urgent is this" xml:space="preserve">
+    <value>de_Wie dringend ist dies ? : </value>
+  </data>
+  <data name="IHaveToDo" xml:space="preserve">
+    <value>de_Ich möchte tun</value>
+  </data>
+  <data name="Immediate" xml:space="preserve">
+    <value>de_Unmittelbar</value>
+  </data>
+  <data name="Important" xml:space="preserve">
+    <value>de_Wichtig</value>
+  </data>
+  <data name="InitSetUpNext" xml:space="preserve">
+    <value>de_Initialisierungseinrichtung Nächste</value>
+  </data>
+  <data name="IWantToDo" xml:space="preserve">
+    <value>de_Ich möchte tun</value>
+  </data>
+  <data name="Later" xml:space="preserve">
+    <value>de_später</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>de_Anmelden</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>de_Abmelden</value>
+  </data>
+  <data name="Low" xml:space="preserve">
+    <value>de_niedrig</value>
+  </data>
+  <data name="Medium" xml:space="preserve">
+    <value>de_Mittel</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>de_Neu</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>de_Neues Passwort</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>de_ Nächste</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>de_Nein</value>
+  </data>
+  <data name="No Specific Deadline" xml:space="preserve">
+    <value>de_Keine spezifische Frist</value>
+  </data>
+  <data name="Not Important" xml:space="preserve">
+    <value>de_Nicht wichtig</value>
+  </data>
+  <data name="Not Specified" xml:space="preserve">
+    <value>de_Nicht spezifiziert</value>
+  </data>
+  <data name="Notes Page" xml:space="preserve">
+    <value>de_Notizenseite</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>de_In Ordnung</value>
+  </data>
+  <data name="Old Password" xml:space="preserve">
+    <value>de_Altes Passwort</value>
+  </data>
+  <data name="OrgCode" xml:space="preserve">
+    <value>de_Organisationscode</value>
+  </data>
+  <data name="OriginalEndDate" xml:space="preserve">
+    <value>de_Ursprüngliches Enddatum</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>de_ Passwort</value>
+  </data>
+  <data name="Please Continue to login" xml:space="preserve">
+    <value>de_Bitte fahren Sie mit der Anmeldung fort</value>
+  </data>
+  <data name="Please enter valid Credentials" xml:space="preserve">
+    <value>de_Bitte geben Sie gültige Anmeldeinformationen ein</value>
+  </data>
+  <data name="Please select a future date" xml:space="preserve">
+    <value>de_ Bitte wählen Sie ein zukünftiges Datum</value>
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>de_Priorität</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>de_Speichern</value>
+  </data>
+  <data name="Send Email" xml:space="preserve">
+    <value>de_E-Mail senden</value>
+  </data>
+  <data name="set a new password." xml:space="preserve">
+    <value>de_ Ein neues Passwort festlegen.</value>
+  </data>
+  <data name="Sign in" xml:space="preserve">
+    <value>de_Anmelden</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>de_Status</value>
+  </data>
+  <data name="Target end date is required" xml:space="preserve">
+    <value>de_
+Zieldatum ist erforderlich</value>
+  </data>
+  <data name="Tasks" xml:space="preserve">
+    <value>de_Aufgaben</value>
+  </data>
+  <data name="tasks completed" xml:space="preserve">
+    <value>de_Aufgaben erledigt</value>
+  </data>
+  <data name="This Week" xml:space="preserve">
+    <value>de_Diese Woche</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>de_Titel</value>
+  </data>
+  <data name="UpdatedIsPinnedStatus" xml:space="preserve">
+    <value>de_Aktualisierte Anheftungsstatus</value>
+  </data>
+  <data name="Urgent" xml:space="preserve">
+    <value>de_Dringend</value>
+  </data>
+  <data name="Use Less words in Title or Description" xml:space="preserve">
+    <value>de_Verwenden Sie weniger Worte im Titel oder in der Beschreibung</value>
+  </data>
+  <data name="User Profile" xml:space="preserve">
+    <value>de_Benutzerprofil</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>de_Benutzername</value>
+  </data>
+  <data name="Verification Code" xml:space="preserve">
+    <value>de_Bestätigungscode</value>
+  </data>
+  <data name="WantToDo" xml:space="preserve">
+    <value>de_Möchten tun</value>
+  </data>
+  <data name="We will send you the link to the Email which you have entered below to change the password" xml:space="preserve">
+    <value>de_Wir senden Ihnen den Link zur Änderung des Passworts an die unten eingegebene E-Mail-Adresse</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>de_Willkommen</value>
+  </data>
+  <data name="WelcomeToDiscipli" xml:space="preserve">
+    <value>de_Willkommen bei Discipli</value>
+  </data>
+  <data name="WelcomInitialSetUpExplainer" xml:space="preserve">
+    <value>de_Willkommens-Initialisierungserklärung</value>
+  </data>
+  <data name="WorkItemNotFound" xml:space="preserve">
+    <value>de_Arbeitsauftrag nicht gefunden</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>de_Ja</value>
+  </data>
+  <data name="You can now change the password and login with the new password" xml:space="preserve">
+    <value>de_Sie können jetzt das Passwort ändern und sich mit dem neuen Passwort anmelden.</value>
+  </data>
+  <data name="YouCanOnlyPin3WorkItems" xml:space="preserve">
+    <value>de_Sie können nur 3 Arbeitsaufträge anheften.</value>
+  </data>
+  <data name="Your password has updated, you can now login with the new password" xml:space="preserve">
+    <value>de_Ihr Passwort wurde aktualisiert. Sie können sich jetzt mit dem neuen Passwort anmelden</value>
+  </data>
+</root>

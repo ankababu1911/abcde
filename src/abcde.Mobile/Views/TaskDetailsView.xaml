@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="abcde.Mobile.Views.TaskDetailsView"
+             xmlns:customControls="clr-namespace:abcde.Mobile.CustomControls"
+             BackgroundColor="{StaticResource PageBgColor}"
+             xmlns:resources="clr-namespace:abcde.Mobile.Resx"
+             Title="TaskDetailsView">
+    <ScrollView>
+        <VerticalStackLayout Margin="20" VerticalOptions="FillAndExpand">
+            <Grid RowDefinitions="*,*" Margin="0,0,0,20">
+                <Grid ColumnDefinitions="*,auto" Grid.Row="0">
+                    <Label Text="{Binding GoalTitle}" Grid.Column="0"
+                           Style="{StaticResource HeadingLabelStyle}" 
+                           HorizontalTextAlignment="Start" 
+                           VerticalOptions="Start"/>
+                    <ImageButton Source="edit_icon.svg" Grid.Column="1" HorizontalOptions="End"
+                                 BackgroundColor="Transparent" VerticalOptions="Start"
+                                 Command="{Binding EditGoalCommand}"/>
+                </Grid>
+                <Label Text="{Binding Title}" Grid.Row="1" Margin="15,10,0,0"
+                   Style="{StaticResource HeadingLabelStyle}" FontSize="21"
+                   HorizontalTextAlignment="Start" 
+                   VerticalOptions="Start"/>
+            </Grid>
+            <StackLayout Margin="0,15">
+                <Label Text="{Binding Description}" Style="{StaticResource StandardLabelStyle}" />
+            </StackLayout>
+
+            <Grid ColumnDefinitions="*,auto">
+                <Label Text="{Binding  Priority}" Margin="0,10,0,0" Style="{StaticResource StandardLabelStyle}"  HorizontalOptions="Start" />
+                <Label Text="{Binding OriginalPlannedEndDateTime, StringFormat='{0:dd.MMM.yyyy}'}" Margin="0,10,0,0" Style="{StaticResource StandardLabelStyle}"
+                   Grid.Column="2" HorizontalOptions="End"/>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

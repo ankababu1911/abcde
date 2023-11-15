@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="abcde.Mobile.Views.LoginView"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:resources="clr-namespace:abcde.Mobile.Resx"
+             xmlns:viewModels="clr-namespace:abcde.Mobile.ViewModels"
+             xmlns:customControls="clr-namespace:abcde.Mobile.CustomControls"
+             x:DataType="viewModels:LoginViewModel"
+             BackgroundColor="{StaticResource PageBgColor}"
+             Title="LoginView">
+    <VerticalStackLayout Margin="20" VerticalOptions="CenterAndExpand">
+        <Label Text="{x:Static resources:AppResources.Welcome}" Style="{StaticResource HeadingLabelStyle}"/>
+        <Label Text="{x:Static resources:AppResources.Please_Continue_to_login}"  Style="{StaticResource HeadingLabelStyle}"/>
+
+        <Grid RowDefinitions="auto,*,*,2*,auto,auto" Margin="0,40,0,0">
+
+            <Grid RowDefinitions="*,auto">
+                <Label Text="{x:Static resources:AppResources.Please_enter_valid_Credentials}" Grid.Row="0" 
+                       Style="{StaticResource ErrorColor}" IsVisible="{Binding IsErrorMsgVisible}"/>
+                <!--Entries-->
+                <customControls:OutlinedEntryControl  x:Name="userName" Grid.Row="1" Placeholder="{x:Static resources:AppResources.Username}" 
+                                                  Text="{Binding Email,Mode=TwoWay}" Margin="0,20" Password="False" />
+            </Grid>
+            <customControls:OutlinedEntryControl  x:Name="password" Grid.Row="1"  Margin="0,20" Placeholder="{x:Static resources:AppResources.Password}" 
+                                                  Text="{Binding Password,Mode=TwoWay}" Password="True" />
+
+            <!--ForgotPassword-->
+            <Label Text="{x:Static resources:AppResources.ForgotPassword_}" Grid.Row="2" Style="{StaticResource ClickableLableStyle}" >
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ForgotPasswordCommand}" />
+                </Label.GestureRecognizers>
+            </Label>
+
+            <!--Sign in-->
+            <Button Text="{x:Static resources:AppResources.Sign_in}" Grid.Row="3"  Margin="0,40" Style="{StaticResource ButtonStyle}"  
+                    Command="{Binding LoginCommand}" />
+        </Grid>
+
+        <!--ActivityIndicator-->
+        <ActivityIndicator AbsoluteLayout.LayoutBounds="0,100,1,40"  AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" IsRunning="{Binding IsInProgress}" 
+                           Style="{StaticResource ActivityIndicatorStyle}" IsVisible="{Binding IsInProgress}"/>
+    </VerticalStackLayout>
+</ContentPage>

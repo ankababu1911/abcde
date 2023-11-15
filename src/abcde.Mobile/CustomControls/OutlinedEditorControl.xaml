@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Name="OutlinedEditor"
+             x:Class="abcde.Mobile.CustomControls.OutlinedEditorControl">
+    <VerticalStackLayout>
+        <Grid>
+            <!-- Entry Frame -->
+            <Frame x:Name="EntryFrame" Style="{StaticResource EntryFrameStyle}" HeightRequest="300"/>
+            <!-- Entry label -->
+            <Label x:Name="PlaceHolderLabel"
+                   Text="{Binding Placeholder,Source={x:Reference OutlinedEditor}}"
+                   Style="{StaticResource EditorPlaceholderStyle}"/>
+            <!-- TextEditor -->
+            <Editor x:Name="TextEditor" MaxLength="1024" VerticalOptions="Start"
+                    Text="{Binding Text,Source={x:Reference OutlinedEditor},Mode=TwoWay}" 
+                    PropertyChanged="TextBox_PropertyChanged"
+                    Focused="TextBox_Focused"
+                    Unfocused="TextBox_Unfocused"
+                    TextChanged="OnTextChanged" 
+                    Style="{StaticResource CustomizedEditorStyle}"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentView>

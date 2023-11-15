@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="abcde.Mobile.Views.EmailVerificationView"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:resources="clr-namespace:abcde.Mobile.Resx"
+             xmlns:viewModels="clr-namespace:abcde.Mobile.ViewModels"
+             BackgroundColor="{StaticResource PageBgColor}"
+             xmlns:customControls="clr-namespace:abcde.Mobile.CustomControls"
+             Title="EmailVerificationView">
+    <Grid>
+        <VerticalStackLayout Margin="20" VerticalOptions="CenterAndExpand">
+            <Label Text="{x:Static resources:AppResources.We_will_send_you_the_link_to_the_Email_which_you_have_entered_below_to_change_the_password}"  
+                   Style="{StaticResource HeadingLabelStyle}"/>
+            <Grid RowDefinitions="auto,auto" Margin="0,45,0,0">
+
+                <!--Entries-->
+                <customControls:OutlinedEntryControl  x:Name="emailId" Grid.Row="0" Placeholder="{x:Static resources:AppResources.Email_ID}"
+                                                      Text="{Binding Email,Mode=TwoWay}" Margin="0,20" Password="False" />
+
+                <!--Send Email-->
+                <Button Text="{x:Static resources:AppResources.Send_Email}" Grid.Row="1" Command="{Binding VerificationCodeCommand}" Margin="0,40" Style="{StaticResource ButtonStyle}" />
+            </Grid>
+        </VerticalStackLayout>
+
+        <Grid IsVisible="{Binding VerificationCodePopupVisible}">
+            <!-- VerificationCode popup -->
+            <ContentView x:Name="VerificationPopup" BackgroundColor="White">
+              
+                <VerticalStackLayout Margin="20" VerticalOptions="CenterAndExpand">
+                    <Label Text="{x:Static resources:AppResources.Enter_verification_code_which_you_have_received_from_Email_to_change_the_password}"  
+                           Style="{StaticResource HeadingLabelStyle}"/>
+                    <Grid RowDefinitions="auto,auto" Margin="0,45,0,0">
+                        <!--Entries-->
+                        <customControls:OutlinedEntryControl  x:Name="verificationCode" Grid.Row="0" Placeholder="{x:Static resources:AppResources.Verification_Code}"
+                            Text="{Binding VerificationCode,Mode=TwoWay}" Margin="0,20" Password="False" />
+
+                        <!--Confirm Verification-->
+                        <Button Text="{x:Static resources:AppResources.Confirm_Verification}" Command="{Binding ForgotPasswordCommand}" Grid.Row="1" Margin="0,40" Style="{StaticResource ButtonStyle}" />
+                    </Grid>
+                </VerticalStackLayout>
+            </ContentView>
+        </Grid>
+
+        <!--ActivityIndicator-->
+        <ActivityIndicator AbsoluteLayout.LayoutBounds="0,100,1,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"  
+                           IsRunning="{Binding IsInProgress}" Style="{StaticResource ActivityIndicatorStyle}" IsVisible="{Binding IsInProgress}"/>
+    </Grid>
+</ContentPage>

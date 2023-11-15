@@ -1,0 +1,99 @@
+﻿@page "/account/validate"
+@using abcde.Model.Constants;
+@using abcde.Portal.Helpers;
+@using abcde.Portal.Services;
+@layout AuthLayout
+@inject NavigationManager NM
+@inject IStringLocalizer<Resource> BaseLocale
+@inject EncryptionHelper _encryptionHelper
+@inject CookieService CookieService
+@inherits Microsoft.AspNetCore.Components.OwningComponentBase<abcde.Client.APIGateway>
+
+<PageTitle>Validate User</PageTitle>
+
+@if (!string.IsNullOrEmpty(OrganisationId))
+{
+    <ValidateComponent EncryptedOrganisationId="@OrganisationId" OnVerify="VerifyOrganisation" ErrorMessage="@errorMessage"  DisabledButton="@Disabled" SpinnerDisplay="@Spinner" />
+}
+else
+{
+    <p>@BaseLocale["UnableToVerifyWithoutOrganisationCode"].Value</p>
+}
+
+@code {
+    //set cookie value in after render event
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            if (!string.IsNullOrEmpty(cc))
+            {
+                var decryptedConnectionStringCode = _encryptionHelper.DecryptAES(cc);
+                await CookieService.SetCookie(CommonConstants.ConnectionStringCodeCookieName, decryptedConnectionStringCode, 300); // Cookie will expire in 300 days
+            }
+        }
+    }
+
+
+
+
+    [SupplyParameterFromQuery]
+    [Parameter]
+    public string? OrganisationId { get; set; }
+    [SupplyParameterFromQuery]
+    [Parameter]
+    public string? cc { get; set; }
+    private string errorMessage;
+    private string Spinner { get; set; }
+    private bool Disabled { get; set; }
+
+    /// <summary>
+    /// Validate, register and login user
+    /// </summary>
+    /// <returns></returns>
+    private async Task VerifyOrganisation(VerifyOrganisation model)
+    {
+        try
+        {
+            Disabled = true;
+            Spinner = "inline-block";
+            model.EncryptedOrganisationId = OrganisationId;
+            string decryptedConnectionStringCode = string.Empty;
+            if (!string.IsNullOrEmpty(cc))
+            {
+                //now decryot the string
+                decryptedConnectionStringCode = _encryptionHelper.DecryptAES(cc);
+                Service.SetConnectionStringCode(decryptedConnectionStringCode);
+                Service.SetHeaders();
+            }
+            var verifyResult = await Service.IdentityService.VerifyOrganisation(model);
+
+            if (verifyResult != null)
+            {
+                Service.TenantId = verifyResult.TenantId.ToString();
+                Service.SetHeaders();
+                var result = await Service.IdentityService.Login(new LoginModel() { Email = model.EmailId, Password = model.Password });
+
+                if (result.UserId!=Guid.Empty)
+                {
+                    string returnUrl = $"account/changePassword?cc={cc}";
+                    NM.NavigateTo($"Authentication/Login?token={result.Token}&redirectUrl={returnUrl}&cc={cc}", true);
+                }
+            }
+            else
+            {
+                errorMessage = BaseLocale["UnableToVerify"].Value;
+                Disabled = false;
+                Spinner = "none";
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Error($"Message : {ex.Message}");
+
+            errorMessage = BaseLocale["UnableToVerify"].Value;
+            Disabled = false;
+            Spinner = "none";
+        }
+    }
+}

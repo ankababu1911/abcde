@@ -1,0 +1,8 @@
+2023-11-07 14:12:00.454 +05:30 [ERR] {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":"00000000-0000-0000-0000-000000000000","tenantId":null,"tenantConnCode":null}
+2023-11-07 14:12:00.501 +05:30 [ERR] Message : {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":"00000000-0000-0000-0000-000000000000","tenantId":null,"tenantConnCode":null}
+2023-11-07 14:12:55.064 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-07 14:12:55.076 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-07 14:12:55.438 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-07 14:12:55.448 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-07 15:20:31.762 +05:30 [ERR] The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.
+2023-11-07 15:24:23.743 +05:30 [ERR] The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.

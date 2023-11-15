@@ -1,0 +1,146 @@
+﻿@page "/Users"
+@using abcde.Portal.Helpers
+@using abcde.Portal.ViewModels
+@using Microsoft.AspNetCore.Components;
+@using abcde.Model.Dtos
+@using abcde.Model.Identity
+@inject Microsoft.Extensions.Localization.IStringLocalizer<App> BaseLocale
+@inject IJSRuntime JSRuntime
+@inherits Microsoft.AspNetCore.Components.OwningComponentBase<abcde.Client.APIGateway>
+
+<div class="container">
+    <div>
+        <Modal @ref="popupmodal" title="@BaseLocale["Create New User"].Value" IsVerticallyCentered="true">
+            <BodyTemplate>
+                <EditForm EditContext="editContext" OnValidSubmit="@(() => OnAddUser.InvokeAsync(model))" autocomplete="off">
+                    <DataAnnotationsValidator />
+                    <InputFormFloatingComponent Label="@BaseLocale["First Name"].Value" @bind-Value="@model.Firstname" ValidationFor="@(() => model.Firstname)" />
+                    <InputFormFloatingComponent Label="@BaseLocale["Last Name"].Value" @bind-Value="@model.Lastname" ValidationFor="@(() => model.Lastname)" />
+                    <InputFormFloatingComponent Label="@BaseLocale["Email"].Value" @bind-Value="@model.Email" ValidationFor="@(() => model.Email)" />
+
+                    <div class="form-floating mb-3">
+                        <select class="form-control" @bind="@model.Domain">
+                            <option value="" disabled selected>@BaseLocale["Select a Domain"].Value</option>
+                            @foreach (var domain in DomainList)
+                            {
+                                <option value="@domain.Id ">@domain.Name</option>
+                            }
+                        </select>
+                        <label for="form-label country">@BaseLocale["Domain"].Value</label>
+                        <ValidationMessage For="@(() => model.Domain)" />
+                    </div>
+                    <div>
+                        <Button Color="ButtonColor.Secondary" @onclick="OnHideModalClick">@BaseLocale["Close"].Value</Button>
+                        <Button Color="ButtonColor.Primary" Class="float-end" Type="ButtonType.Submit">@BaseLocale["Save"].Value</Button>
+                    </div>
+                </EditForm>
+            </BodyTemplate>
+        </Modal>
+
+        <Button Color="ButtonColor.Primary" @onclick="OnShowModalClick">@BaseLocale["Add New User"].Value</Button>
+    </div>
+
+    <div class="mt-5">
+        <Grid @ref="grid" TItem="ApplicationUser" class="table table-hover table-bordered table-striped" DataProvider="UserDataProvider" AllowPaging="true"
+              Responsive="true"
+              PageSize="10"
+              AllowFiltering="true">
+            <GridColumn TItem="ApplicationUser" HeaderText="@BaseLocale["First Name"].Value" PropertyName="FirstName">
+                @context.FirstName
+            </GridColumn>
+            <GridColumn TItem="ApplicationUser" HeaderText="@BaseLocale["Last Name"].Value" PropertyName="LastName">
+                @context.LastName
+            </GridColumn>
+            <GridColumn TItem="ApplicationUser" HeaderText="@BaseLocale["Email"].Value" PropertyName="Email">
+                @context.Email
+            </GridColumn>
+        </Grid>
+    </div>
+    <Toasts class="p-3" Messages="messages" Delay="3000" AutoHide="true" Placement="ToastsPlacement.TopRight" />
+</div>
+
+@code {
+    Grid<ApplicationUser> grid;
+    private Modal popupmodal = default!;
+    private List<ToastMessage> messages = new List<ToastMessage>();
+
+    private async Task OnShowModalClick()
+    {
+        await popupmodal.ShowAsync();
+    }
+
+    private async Task OnHideModalClick()
+    {
+        await popupmodal.HideAsync();
+    }
+    private void ShowMessage(ToastType toastType) => messages.Add(CreateToastMessage(toastType));
+    private ToastMessage CreateToastMessage(ToastType toastType)
+       => new ToastMessage
+           {
+               Type = toastType,
+               Message = @BaseLocale["User Added Successfully"].Value,
+               AutoHide = true,
+           };
+
+    private async Task CreateUser(AddUserModel addUserModel)
+    {
+        var createUserRequest = new CreateUserRequest()
+        {
+            FirstName = addUserModel.Firstname,
+            LastName = addUserModel.Lastname,
+            Email = addUserModel.Email,
+            DomainId = !string.IsNullOrEmpty(addUserModel.Domain) ? new Guid(addUserModel.Domain) : Guid.Empty
+        };
+        await Service.IdentityService.CreateUser(createUserRequest);
+
+        await popupmodal.HideAsync();
+        await Initialise();
+        model = new AddUserModel();
+        Users = await Service.TenantService.GetUsersForTenant();
+        Users = Users.OrderBy(u => u.FirstName).ToList();
+        ShowMessage(ToastType.Success);
+        await grid.RefreshDataAsync();
+    }
+
+    [Parameter]
+    public string ErrorMessage { get; set; }
+    private IEnumerable<DomainViewModel> DomainList { get; set; }
+    private List<ApplicationUser> Users { get; set; }
+
+    [Parameter]
+    public EventCallback<AddUserModel> OnAddUser { get; set; }
+
+    private AddUserModel model;
+    private EditContext editContext;
+    protected override async Task OnInitializedAsync()
+    {
+        model = new AddUserModel();
+        Service.SetHeaders();
+        editContext = new EditContext(model);
+        await Initialise();
+        OnAddUser = EventCallback.Factory.Create<AddUserModel>(this, CreateUser);
+    }
+    private async Task<GridDataProviderResult<ApplicationUser>> UserDataProvider(GridDataProviderRequest<ApplicationUser> request)
+    {
+        if (Users is null)
+        {
+           Users = await Service.TenantService.GetUsersForTenant();
+           Users = Users.OrderBy(u => u.FirstName).ToList();
+        }
+           
+        return await Task.FromResult(request.ApplyTo(Users));
+    }
+
+    private async Task Initialise()
+    {
+        var domains = await Service.DomainService.GetAllAsync();
+        if (domains != null && domains.Any())
+        {
+            //sort by name
+            domains = domains.OrderBy(x => x.Name);
+        }
+        Users = await Service.TenantService.GetUsersForTenant();
+        Users = Users.OrderBy(u => u.FirstName).ToList();
+        DomainList = domains.Select(x => DomainHelper.GetDomainViewModel(x, Users)).ToList();        
+    }
+}

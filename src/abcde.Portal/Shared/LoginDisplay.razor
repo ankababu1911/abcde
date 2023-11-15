@@ -1,0 +1,23 @@
+﻿@inherits Components.Base.BaseAuthorisedComponent
+
+<AuthorizeView>
+    <Authorized>
+        <a id="manage" class="nav-link text-dark" asp-area="Identity" title="Manage">@OrganisationName</a>
+        <button class="btn float-right btn-logout" @onclick=@(() => NM.NavigateTo("Authentication/logout?returnUrl=/", true)) target="_top">
+            @BaseLocale["Logout"].Value
+        </button>
+    </Authorized>
+    <NotAuthorized>
+        <button class="btn float-right btn-logout" @onclick=@(() => NM.NavigateTo("/login")) target="_top">
+            @BaseLocale["LogIn"].Value
+        </button>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+
+    protected async override Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+    }
+}

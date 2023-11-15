@@ -1,0 +1,55 @@
+2023-10-27 11:58:24.463 +05:30 [ERR] {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":null,"tenantId":null}
+2023-10-27 11:58:24.516 +05:30 [ERR] Message : {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":null,"tenantId":null}
+2023-10-27 11:58:30.059 +05:30 [ERR] {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":null,"tenantId":null}
+2023-10-27 11:58:30.088 +05:30 [ERR] Message : {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":null,"tenantId":null}
+2023-10-27 12:11:14.376 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-27 12:11:14.401 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-27 12:11:16.356 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 12:11:16.368 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 12:11:36.942 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 12:11:37.200 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 12:20:56.196 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 12:20:56.221 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 12:20:56.836 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 12:20:56.846 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 12:23:45.540 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 12:25:43.679 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 12:28:42.153 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 13:02:22.597 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-27 13:02:22.625 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-27 13:02:24.425 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 13:02:24.436 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 13:25:44.104 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-27 13:25:44.129 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-27 13:25:45.938 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 13:25:45.950 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 15:48:00.603 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-27 15:48:00.628 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-27 15:48:02.495 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 15:48:02.505 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 15:54:16.137 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-27 15:54:16.161 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-27 15:54:18.009 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 15:54:18.018 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 15:57:14.832 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 15:57:14.857 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 15:57:15.439 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 15:57:15.449 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 15:58:04.812 +05:30 [ERR] Response status code does not indicate success: 401 (Unauthorized).
+2023-10-27 15:59:48.076 +05:30 [ERR] Response status code does not indicate success: 401 (Unauthorized).
+2023-10-27 15:59:49.901 +05:30 [ERR] Response status code does not indicate success: 401 (Unauthorized).
+2023-10-27 16:03:21.937 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-27 16:03:21.989 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-27 16:03:24.423 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 16:03:24.434 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 16:25:02.853 +05:30 [ERR] Response status code does not indicate success: 401 (Unauthorized).
+2023-10-27 16:25:41.067 +05:30 [ERR] Response status code does not indicate success: 401 (Unauthorized).
+2023-10-27 16:39:53.615 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-27 16:39:54.398 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-27 16:40:20.343 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 16:40:20.392 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 16:41:21.227 +05:30 [ERR] Response status code does not indicate success: 401 (Unauthorized).
+2023-10-27 16:53:18.221 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-27 16:53:18.245 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-27 16:53:20.154 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-27 16:53:20.165 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).

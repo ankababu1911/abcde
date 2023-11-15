@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<base:ContentPageBase xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                      xmlns:base="clr-namespace:abcde.Mobile.Views"            
+                      x:Class="abcde.Mobile.Views.GoalsView"
+                      xmlns:template="clr-namespace:abcde.Mobile.Views.Templates"
+                      xmlns:customControls="clr-namespace:abcde.Mobile.CustomControls"
+                      xmlns:resources="clr-namespace:abcde.Mobile.Resx"
+                      xmlns:local="clr-namespace:abcde.Mobile.Localization"
+                      Title="Goals"
+                      xmlns:viewModels="clr-namespace:abcde.Mobile.ViewModels"
+                      x:DataType="viewModels:GoalsViewModel"
+                      xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+                      FlyoutItem.IsVisible="True"
+                      x:Name="GoalsPage">
+    <base:ContentPageBase.Behaviors>
+        <mct:StatusBarBehavior StatusBarColor="{StaticResource Primary}" />
+    </base:ContentPageBase.Behaviors>
+    <Grid>
+        <ScrollView VerticalScrollBarVisibility="Never" Style="{StaticResource GoalsListScrollViewStyle}">
+            <Grid>
+                <StackLayout Margin="10" VerticalOptions="FillAndExpand">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="5*" />
+                            <ColumnDefinition Width="5*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="My Goals" TextColor="{StaticResource Primary}" FontSize="25" Margin="10,0,0,0"/>
+                        <StackLayout  Grid.Column="1" >
+                            <ImageButton Source="menu_icons.png"  BackgroundColor="Transparent" Padding="0" HeightRequest="45" WidthRequest="25" Command="{Binding FlyoutPageCommand}" HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+                    </Grid>
+
+                    <Grid>
+                        <VerticalStackLayout Grid.Row="1" Margin="10,0,0,0">
+                            <CollectionView Grid.Row="1" ItemsSource="{Binding WorkItems}" 
+                            SelectionMode="Single" 
+                            x:Name="CollectionItem">
+                                <CollectionView.ItemsLayout>
+                                    <GridItemsLayout Orientation="Vertical" Span="2" />
+                                </CollectionView.ItemsLayout>
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackLayout>
+                                            <VisualStateManager.VisualStateGroups>
+                                                <VisualStateGroup Name="CommonStates">
+                                                    <VisualState Name="Normal" />
+                                                    <VisualState Name="Selected">
+                                                        <VisualState.Setters>
+                                                            <Setter Property="BackgroundColor" Value="Transparent" />
+                                                        </VisualState.Setters>
+                                                    </VisualState>
+                                                </VisualStateGroup>
+                                            </VisualStateManager.VisualStateGroups>
+                                            <Frame Style="{StaticResource GoalListItemStyle}">
+                                                <Frame.HeightRequest>
+                                                    <OnPlatform x:TypeArguments="x:Double" Default="40">
+                                                        <On Platform="iOS" Value="100" />
+                                                        <On Platform="Android" Value="125" />
+                                                    </OnPlatform>
+                                                </Frame.HeightRequest>
+                                                <Frame.GestureRecognizers>
+                                                    <TapGestureRecognizer Command="{Binding Source={x:Reference CollectionItem}, Path=BindingContext.GoalSelectedCommand}" 
+                                                          CommandParameter="{Binding .}" />
+                                                </Frame.GestureRecognizers>
+                                                <Grid RowDefinitions="*,auto,auto" Margin="5">
+                                                    <Grid Grid.Row="0" ColumnDefinitions="*,auto">
+                                                        <Label Text="{Binding Title}" Grid.Column="0" Grid.Row="0"
+                                               Style="{StaticResource GoalTitleLabelStyle}"></Label>
+                                                        <ImageButton Grid.Column="1" 
+                                                     HorizontalOptions="End" 
+                                                     VerticalOptions="Start"                                                      
+                                                     HeightRequest="17" 
+                                                     WidthRequest="25" 
+                                                     BackgroundColor="Transparent"  
+                                                     Command="{Binding Source={x:Reference GoalsPage}, Path=BindingContext.PinToTopCommand}" CommandParameter="{Binding .}"  >
+                                                            <ImageButton.Triggers>
+                                                                <DataTrigger TargetType="ImageButton" Binding="{Binding IsPinned}" Value="True">
+                                                                    <Setter Property="Source" Value="pin_icon.svg" />
+                                                                </DataTrigger>
+                                                                <DataTrigger TargetType="ImageButton" Binding="{Binding IsPinned}" Value="False">
+                                                                    <Setter Property="Source" Value="unpin_icon.svg" />
+                                                                </DataTrigger>
+                                                            </ImageButton.Triggers>
+                                                        </ImageButton>
+                                                    </Grid>
+                                                    <StackLayout Grid.Row="1" IsVisible="{Binding IsVisibleProgress}">
+                                                        <Label>
+                                                            <Label.FormattedText>
+                                                                <FormattedString>
+                                                                    <Span Text="{Binding CompletedTasks}" FontAttributes="Bold" />
+                                                                    <Span Text=" / " />
+                                                                    <Span Text="{Binding TotalTasks}" FontAttributes="Bold" />
+                                                                    <Span Text=" " />
+                                                                    <Span Text="{local:Translate tasks completed}" />
+                                                                </FormattedString>
+                                                            </Label.FormattedText>
+                                                        </Label>
+                                                        <Frame Style="{StaticResource ProgressBarFrameStyle}">
+                                                            <ProgressBar  VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" 
+                                                              Progress="{Binding OverallProgress}" Style="{StaticResource ProgressBarStyle}">
+                                                                <ProgressBar.ScaleY>
+                                                                    <OnPlatform  x:TypeArguments="x:Double">
+                                                                        <On Platform="iOS" Value="2" />
+                                                                        <On Platform="Android" Value="2" />
+                                                                    </OnPlatform>
+                                                                </ProgressBar.ScaleY>
+                                                            </ProgressBar>
+                                                        </Frame>
+                                                    </StackLayout>
+
+                                                    <Label Text="{Binding OriginalPlannedEndDateTime, StringFormat='{0:dd.MMM.yyyy}'}" VerticalOptions="Center" 
+                                                           Grid.Row="2" Style="{StaticResource StandardLabelStyle}" />
+                                                </Grid>
+
+                                            </Frame>
+                                        </StackLayout>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+                        </VerticalStackLayout>
+                    </Grid>
+                </StackLayout>
+                <!--ActivityIndicator-->
+                <ActivityIndicator IsRunning="{Binding IsLoading}"  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+                    Style="{StaticResource ActivityIndicatorStyle}" IsVisible="{Binding IsLoading}"/>
+
+                <VerticalStackLayout IsVisible="{Binding OptionsListView}" BackgroundColor="Transparent" Margin="0,60,10,0" VerticalOptions="Fill">
+                    <ContentView x:Name="LoginPopup" Grid.Row="0" BackgroundColor="Transparent">
+                        <Grid ColumnDefinitions="*" BackgroundColor="Transparent" HorizontalOptions="End">
+                            <Frame Margin="0,5,0,0" Padding="0" CornerRadius="6">
+                                <StackLayout Spacing="10" BackgroundColor="Transparent" Padding="8" VerticalOptions="Center">
+                                    <Button Command="{Binding GotoNextPageCommand}" CommandParameter="PlanMyDay" BorderColor="White" BorderWidth="2" Text="Plan My Day" FontSize="16" TextColor="Black" BackgroundColor="Transparent" />
+                                    <Button Command="{Binding GotoNextPageCommand}" CommandParameter="My Goals" Text="My Goals" HorizontalOptions="Start" FontSize="16" TextColor="Black" BackgroundColor="Transparent"/>
+                                    <Button Command="{Binding GotoNextPageCommand}" CommandParameter="My Notes"   HorizontalOptions="Start" FontSize="16" TextColor="Black" Text="My Notes"
+                                            BackgroundColor="Transparent"/>
+                                    <Button Command="{Binding GotoNextPageCommand}" CommandParameter="Settings" Text="Settings"
+                                            HorizontalOptions="Start" FontSize="16" TextColor="Black" BackgroundColor="Transparent"/>
+                                    <Button Command="{Binding GotoNextPageCommand}" CommandParameter="About Me" 
+                                            Text="About Me" HorizontalOptions="Start" FontSize="16" TextColor="Black" BackgroundColor="Transparent"/>
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
+                    </ContentView>
+                </VerticalStackLayout>
+
+            </Grid>
+        </ScrollView>
+        <Grid MaximumWidthRequest="0" HorizontalOptions="End" VerticalOptions="End" HeightRequest="100" WidthRequest="80" Margin="0,0,0,60">
+            <Button AbsoluteLayout.LayoutBounds="1, 1, 100, 100"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            Text="+"
+            Command="{Binding GotoAddGoalCommand}"
+            FontSize="30"
+            BackgroundColor="{StaticResource Primary}"
+            TextColor="White"
+            CornerRadius="45"
+            HeightRequest="60"
+            WidthRequest="60" 
+            ZIndex="100"/>
+        </Grid>
+        
+        <!--<Grid MaximumWidthRequest="0" ColumnDefinitions="auto,100" HorizontalOptions="Start" VerticalOptions="Center" HeightRequest="300" WidthRequest="120" Margin="0,0,0,60">
+            <ImageButton Source="right_arrow.png" BackgroundColor="#024556" Margin="5" HeightRequest="250" 
+             WidthRequest="15" HorizontalOptions="Start" VerticalOptions="Center" Clicked="OnShowLabelsClicked" />
+
+            <Grid Grid.Column="1" BackgroundColor="White" RowDefinitions="auto,auto,auto" RowSpacing="35" HorizontalOptions="Start" VerticalOptions="Center">
+
+                <Frame Padding="0" Grid.Row="0" x:Name="label1" HeightRequest="50" BorderColor="#024556" IsVisible="False">
+                    <Grid RowDefinitions="auto,*" >
+                        <Image Source="profile_icon.svg" HeightRequest="25" Margin="0,2,0,0" Grid.Row="0"/>
+                        <Button  Grid.Row="1" Padding="0"  Margin="2,0,2,0" Text="My Profile" TextColor="Black" BackgroundColor="Transparent" HeightRequest="30" FontSize="15"  HorizontalOptions="CenterAndExpand" />
+                    </Grid>
+                </Frame>
+                <Frame Padding="0" Grid.Row="1" x:Name="label2" HeightRequest="50" BorderColor="#024556" IsVisible="False">
+                    <Grid RowDefinitions="auto,*" >
+                        <Image Source="family_icon.svg" HeightRequest="25" Margin="0,2,0,0" Grid.Row="0"/>
+                        <Button  Grid.Row="1" Padding="0"  Margin="2,0,2,0" Text="My Family" TextColor="Black" BackgroundColor="Transparent" HeightRequest="30" FontSize="15"  HorizontalOptions="CenterAndExpand" />
+                    </Grid>
+                </Frame>
+                <Frame Padding="0" Grid.Row="2" x:Name="label3" HeightRequest="50" BorderColor="#024556" IsVisible="False">
+                    <Grid RowDefinitions="auto,*" >
+                        <Image Source="community.png" HeightRequest="25" Margin="0,2,0,0" Grid.Row="0"/>
+                        <Button  Grid.Row="1" Padding="0" Margin="2,0,2,0" Text="Classroom" TextColor="Black" BackgroundColor="Transparent" HeightRequest="30" FontSize="15"  HorizontalOptions="CenterAndExpand" />
+                    </Grid>
+                </Frame>
+            </Grid>
+        </Grid>-->
+    </Grid>
+   
+</base:ContentPageBase>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="abcde.Mobile.Views.Templates.GetStartedPage"
+             BackgroundColor="{StaticResource PageBgColor}"
+             Title="GetStartedPage">
+    <VerticalStackLayout Margin="20" VerticalOptions="CenterAndExpand">
+        <Image Source="splashscreen.svg" BackgroundColor="White"></Image>
+        <Button Text="Let's get started" Margin="0,40"  FontSize="20"  TextColor="#fff" BorderColor="#024556" 
+                    CornerRadius="0" HeightRequest="50" BackgroundColor="#00566D" Clicked="Button_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

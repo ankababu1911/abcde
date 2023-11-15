@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.ComponentLibrary\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.ComponentLibrary\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.abcde.ComponentLibrary.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.abcde.ComponentLibrary.props",
+      "PackagePath": "build\\abcde.ComponentLibrary.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.abcde.ComponentLibrary.props",
+      "PackagePath": "buildMultiTargeting\\abcde.ComponentLibrary.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.abcde.ComponentLibrary.props",
+      "PackagePath": "buildTransitive\\abcde.ComponentLibrary.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

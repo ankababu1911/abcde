@@ -1,0 +1,34 @@
+C:\Babu\Templates\New folder\src 2\test\abcde.Test.Data\bin\Debug\net7.0\abcde.Test.Data.deps.json
+C:\Babu\Templates\New folder\src 2\test\abcde.Test.Data\bin\Debug\net7.0\abcde.Test.Data.dll
+C:\Babu\Templates\New folder\src 2\test\abcde.Test.Data\bin\Debug\net7.0\abcde.Test.Data.pdb
+C:\Babu\Templates\New folder\src 2\test\abcde.Test.Data\bin\Debug\net7.0\abcde.Data.dll
+C:\Babu\Templates\New folder\src 2\test\abcde.Test.Data\bin\Debug\net7.0\abcde.Model.dll
+C:\Babu\Templates\New folder\src 2\test\abcde.Test.Data\bin\Debug\net7.0\abcde.Data.pdb
+C:\Babu\Templates\New folder\src 2\test\abcde.Test.Data\bin\Debug\net7.0\abcde.Model.pdb
+C:\Babu\Templates\New folder\src 2\test\abcde.Test.Data\obj\Debug\net7.0\abcde.Test.Data.csproj.AssemblyReference.cache
+C:\Babu\Templates\New folder\src 2\test\abcde.Test.Data\obj\Debug\net7.0\abcde.Test.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Babu\Templates\New folder\src 2\test\abcde.Test.Data\obj\Debug\net7.0\abcde.Test.Data.AssemblyInfoInputs.cache
+C:\Babu\Templates\New folder\src 2\test\abcde.Test.Data\obj\Debug\net7.0\abcde.Test.Data.AssemblyInfo.cs
+C:\Babu\Templates\New folder\src 2\test\abcde.Test.Data\obj\Debug\net7.0\abcde.Test.Data.csproj.CoreCompileInputs.cache
+C:\Babu\Templates\New folder\src 2\test\abcde.Test.Data\obj\Debug\net7.0\abcde.Test.Data.csproj.CopyComplete
+C:\Babu\Templates\New folder\src 2\test\abcde.Test.Data\obj\Debug\net7.0\abcde.Test.Data.dll
+C:\Babu\Templates\New folder\src 2\test\abcde.Test.Data\obj\Debug\net7.0\refint\abcde.Test.Data.dll
+C:\Babu\Templates\New folder\src 2\test\abcde.Test.Data\obj\Debug\net7.0\abcde.Test.Data.pdb
+C:\Babu\Templates\New folder\src 2\test\abcde.Test.Data\obj\Debug\net7.0\ref\abcde.Test.Data.dll
+C:\Babu\Templates\New folder\src 2 new\test\abcde.Test.Data\obj\Debug\net7.0\abcde.Test.Data.csproj.AssemblyReference.cache
+C:\Babu\Templates\New folder\src 2 new\test\abcde.Test.Data\obj\Debug\net7.0\abcde.Test.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Babu\Templates\New folder\src 2 new\test\abcde.Test.Data\obj\Debug\net7.0\abcde.Test.Data.AssemblyInfoInputs.cache
+C:\Babu\Templates\New folder\src 2 new\test\abcde.Test.Data\obj\Debug\net7.0\abcde.Test.Data.AssemblyInfo.cs
+C:\Babu\Templates\New folder\src 2 new\test\abcde.Test.Data\obj\Debug\net7.0\abcde.Test.Data.csproj.CoreCompileInputs.cache
+C:\Babu\Templates\New folder\src 2 new\test\abcde.Test.Data\bin\Debug\net7.0\abcde.Test.Data.deps.json
+C:\Babu\Templates\New folder\src 2 new\test\abcde.Test.Data\bin\Debug\net7.0\abcde.Test.Data.dll
+C:\Babu\Templates\New folder\src 2 new\test\abcde.Test.Data\bin\Debug\net7.0\abcde.Test.Data.pdb
+C:\Babu\Templates\New folder\src 2 new\test\abcde.Test.Data\bin\Debug\net7.0\abcde.Data.dll
+C:\Babu\Templates\New folder\src 2 new\test\abcde.Test.Data\bin\Debug\net7.0\abcde.Model.dll
+C:\Babu\Templates\New folder\src 2 new\test\abcde.Test.Data\bin\Debug\net7.0\abcde.Data.pdb
+C:\Babu\Templates\New folder\src 2 new\test\abcde.Test.Data\bin\Debug\net7.0\abcde.Model.pdb
+C:\Babu\Templates\New folder\src 2 new\test\abcde.Test.Data\obj\Debug\net7.0\abcde.Test.Data.csproj.CopyComplete
+C:\Babu\Templates\New folder\src 2 new\test\abcde.Test.Data\obj\Debug\net7.0\abcde.Test.Data.dll
+C:\Babu\Templates\New folder\src 2 new\test\abcde.Test.Data\obj\Debug\net7.0\refint\abcde.Test.Data.dll
+C:\Babu\Templates\New folder\src 2 new\test\abcde.Test.Data\obj\Debug\net7.0\abcde.Test.Data.pdb
+C:\Babu\Templates\New folder\src 2 new\test\abcde.Test.Data\obj\Debug\net7.0\ref\abcde.Test.Data.dll

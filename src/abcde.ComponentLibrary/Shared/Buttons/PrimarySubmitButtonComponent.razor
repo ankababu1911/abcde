@@ -1,0 +1,17 @@
+﻿<button id="change-submit" type="submit" class="w-100 btn btn-lg btn-primary"  disabled="@DisabledButton">
+    <span class="spinner-border spinner-border-sm spinner" style="display: @(SpinnerDisplay ?? "none")"></span> @Text
+</button>
+
+@code {
+
+    [Parameter]
+    public string Text { get; set; }
+    [Parameter]
+    public bool DisabledButton { get; set; } 
+    [Parameter]
+    public string SpinnerDisplay { get; set; } 
+
+
+  
+
+}

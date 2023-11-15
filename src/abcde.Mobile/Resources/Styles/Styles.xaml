@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:customControls="clr-namespace:abcde.Mobile.CustomControls">
+
+    <Color x:Key="Primary">#024556</Color>
+    <Color x:Key="Secondary">#00566D</Color>
+    <Color x:Key="ProgressColor">#00A611</Color>
+    <Color x:Key="Red">Red</Color>
+    <Color x:Key="StandardLabelColor">Black</Color>
+    <Color x:Key="Black">Black</Color>
+    <Color x:Key="ButtonTextColor">White</Color>
+    <Color x:Key="PageBgColor">White</Color>
+    <Color x:Key="SliderMaxcolor">Gray</Color>
+    <Color x:Key="SeparatorColor">#D9D9D9</Color>
+    <Color x:Key="FieldSeparatorColor">Black</Color>
+    <Color x:Key="GoalButtonBorderColor">Black</Color>
+    <Style TargetType="NavigationPage">
+        <Setter Property="BarTextColor" Value="#fff"/>
+    </Style>
+
+    <!-- Label Styles -->
+    <Style TargetType="Label" x:Key="HeadingLabelStyle">
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="FontSize" Value="24"/>
+        <Setter Property="TextColor" Value="{StaticResource Primary}"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="StandardLabelStyle">
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="TextColor" Value="{StaticResource StandardLabelColor}"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="CustomButtonLabel">
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="TextColor" Value="{StaticResource ButtonTextColor}"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="EntryPlaceholderStyle">
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="VerticalTextAlignment" Value="Center"/>
+        <Setter Property="Margin" Value="12,10"/>
+        <Setter Property="BackgroundColor" Value="White"/>
+        <Setter Property="TextColor" Value="{StaticResource Primary}"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="ShowpasswordStyle">
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="VerticalTextAlignment" Value="Center"/>
+        <Setter Property="TextColor" Value="{StaticResource Primary}"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="Margin" Value="0,0,15,0"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="EditorPlaceholderStyle">
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Start"/>
+        <Setter Property="VerticalTextAlignment" Value="Start"/>
+        <Setter Property="Margin" Value="10,15"/>
+        <Setter Property="BackgroundColor" Value="White"/>
+        <Setter Property="TextColor" Value="{StaticResource Primary}"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="ClickableLableStyle">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Margin" Value="0,10"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="TextColor" Value="{StaticResource Primary}"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="LableCustomButtonStyle">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="TextColor" Value="White"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="ErrorColor">
+        <Setter Property="TextColor"  Value="{StaticResource Red}"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="HeadingLabelFont18">
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="TextColor" Value="{StaticResource Primary}"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="ShowLabel">
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="TextColor" Value="{StaticResource Primary}"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="GoalTitleLabelStyle">
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="Padding" Value="0" />
+        <Setter Property="TextColor" Value="{StaticResource Primary}" />
+        <Setter Property="FontSize" Value="15" />
+    </Style>
+
+    <Style TargetType="Label" x:Key="GoalDateStyle">
+        <Setter Property="BackgroundColor" Value="Transparent" />
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="TextColor" Value="{StaticResource Black}" />
+        <Setter Property="FontSize" Value="15" />
+    </Style>
+
+    <Style TargetType="Label" x:Key="AddGoalTitle">
+        <Setter Property="BackgroundColor" Value="Transparent" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="TextColor" Value="{StaticResource Black}" />
+        <Setter Property="FontAttributes" Value="Bold" />
+    </Style>
+    <Style TargetType="Label" x:Key="AddGoalOptionLabel">
+        <Setter Property="BackgroundColor" Value="Transparent" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="TextColor" Value="{StaticResource Red}" />
+        <Setter Property="FontAttributes" Value="Bold" />
+    </Style>
+
+    <Style TargetType="Label" x:Key="StandardLabelStyle10">
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="TextColor" Value="{StaticResource StandardLabelColor}"/>
+        <Setter Property="Margin" Value="10"/>
+    </Style>
+    <Style TargetType="Label" x:Key="GoalTitleLabelStyle15">
+        <Setter Property="FontAttributes" Value="Bold" />        
+        <Setter Property="TextColor" Value="{StaticResource Primary}" />
+        <Setter Property="Margin" Value="15" />
+    </Style>
+    <!--Frame Styles-->
+    <Style TargetType="Frame" x:Key="FrameStyle">
+        <Setter Property="BorderColor" Value="{StaticResource Primary}"/>
+        <Setter Property="CornerRadius" Value="0"/>
+        <Setter Property="HeightRequest" Value="50"/>
+        <Setter Property="HasShadow" Value="False"/>
+    </Style>
+
+    <Style TargetType="Frame" x:Key="FrameStyleHeight100">
+        <Setter Property="BorderColor" Value="{StaticResource Primary}"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="HeightRequest" Value="100"/>
+        <Setter Property="HasShadow" Value="False"/>
+        <Setter Property="Padding" Value="0"/>
+    </Style>
+
+    <Style TargetType="Frame" x:Key="AddGoalFrameStyle">
+        <Setter Property="BorderColor" Value="{StaticResource Black}"/>
+        <Setter Property="CornerRadius" Value="0"/>
+        <Setter Property="HeightRequest" Value="50"/>
+        <Setter Property="HasShadow" Value="False"/>
+    </Style>
+
+    <Style TargetType="Frame" x:Key="GoalListItemStyle">
+        <Setter Property="BorderColor" Value="{StaticResource Primary}"/>
+        <Setter Property="HasShadow" Value="False"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Padding" Value="5,0"/>
+        <Setter Property="Margin" Value="10"/>
+    </Style>
+
+    <Style TargetType="Frame" x:Key="ProgressBarFrameStyle">
+        <Setter Property="BorderColor" Value="Transparent"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="HasShadow" Value="False"/>
+        <Setter Property="CornerRadius" Value="14"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="MaximumHeightRequest" Value="10"/>
+    </Style>
+
+    <Style TargetType="Frame" x:Key="EntryFrameStyle">
+        <Setter Property="BorderColor" Value="{StaticResource Primary}"/>
+        <Setter Property="CornerRadius" Value="0"/>
+        <Setter Property="HeightRequest" Value="200"/>
+        <Setter Property="HasShadow" Value="False"/>
+    </Style>
+
+    <Style TargetType="Frame" x:Key="CustomButtonFrame">
+        <Setter Property="BackgroundColor" Value="{StaticResource Primary}"/>
+        <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+        <Setter Property="BorderColor" Value="{StaticResource Primary}"/>
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+        <Setter Property="Padding" Value="10"/>
+        <Setter Property="CornerRadius" Value="0"/>
+        <Setter Property="HeightRequest" Value="55"/>
+        <Setter Property="HasShadow" Value="False"/>
+    </Style>
+
+    <Style TargetType="Frame" x:Key="BackgroundBlurFrame">
+        <Setter Property="BackgroundColor" Value="Black"/>
+        <Setter Property="Opacity" Value="0.5"/>
+        <Setter Property="IsClippedToBounds" Value="True"/>
+        <Setter Property="HasShadow" Value="False"/>
+    </Style>
+
+    <Style TargetType="Frame" x:Key="PlayMyDayFrameStyle">
+        <Setter Property="BorderColor" Value="{StaticResource Black}"/>
+        <Setter Property="CornerRadius" Value="0"/>
+        <Setter Property="Margin" Value="-10"/>
+    </Style>
+
+    <Style TargetType="Frame" x:Key="PlayMyDayTaskFrameStyle">
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="BorderColor" Value="{StaticResource Black}"/>
+        <Setter Property="HeightRequest" Value="125"/>
+        <Setter Property="WidthRequest" Value="110"/>
+        <Setter Property="CornerRadius" Value="10"/>        
+    </Style>
+
+    <!--Button Styles-->
+    <Style TargetType="Button" x:Key="ButtonStyle">
+        <Setter Property="BackgroundColor" Value="{StaticResource Primary}"/>
+        <Setter Property="BorderColor" Value="{StaticResource Primary}"/>
+        <Setter Property="TextColor" Value="White"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="CornerRadius" Value="0"/>
+        <Setter Property="HeightRequest" Value="50"/>
+    </Style>
+
+    <Style TargetType="Button" x:Key="ButtonStyleLight">
+        <Setter Property="BackgroundColor" Value="White"/>
+        <Setter Property="BorderColor" Value="{StaticResource Primary}"/>
+        <Setter Property="TextColor" Value="{StaticResource Primary}"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="CornerRadius" Value="0"/>
+        <Setter Property="HeightRequest" Value="50"/>
+    </Style>
+
+    <Style TargetType="Button" x:Key="Button16Width90">
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="TextColor" Value="White"/>
+        <Setter Property="WidthRequest" Value="90"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="BackgroundColor" Value="#00566D"/>
+    </Style>
+
+    <Style TargetType="Button" x:Key="FieldButtonStyle">
+        <Setter Property="BorderColor" Value="{StaticResource GoalButtonBorderColor}"/>
+        <Setter Property="BorderWidth" Value="1"/>
+        <Setter Property="CornerRadius" Value="0"/>
+    </Style>
+
+    <!--ActivityIndicator Styles-->
+    <Style TargetType="ActivityIndicator" x:Key="ActivityIndicatorStyle">
+        <Setter Property="Color"  Value="{StaticResource Primary}"/>
+        <Setter Property="Scale" Value="1.2"/>
+    </Style>
+
+    <!--ProgressBar Styles-->
+    <Style TargetType="ProgressBar" x:Key="ProgressBarStyle">
+        <Setter Property="VerticalOptions"  Value="CenterAndExpand"/>
+        <Setter Property="HorizontalOptions"  Value="FillAndExpand"/>
+        <Setter Property="ProgressColor"  Value="{StaticResource ProgressColor}"/>
+    </Style>
+
+    <!--Entry Styles-->
+    <Style TargetType="Entry" x:Key="CustomizedEntryStyle">
+        <Setter Property="VerticalOptions"  Value="FillAndExpand"/>
+        <Setter Property="Margin"  Value="10,5,0,0"/>
+        <Setter Property="VerticalTextAlignment"  Value="Center"/>
+    </Style>
+
+    <!--Editor Styles-->
+    <Style TargetType="Editor" x:Key="CustomizedEditorStyle">
+        <Setter Property="VerticalTextAlignment" Value="Start"/>
+        <Setter Property="Margin"  Value="10,0"/>
+        <Setter Property="HeightRequest"  Value="200"/>
+    </Style>
+
+    <Style TargetType="Editor" x:Key="CustomizedEditorStyleFont15">
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="TextColor" Value="{StaticResource Black}"/>
+        <Setter Property="PlaceholderColor" Value="#4d4f52"/>
+        <Setter Property="MaxLength"  Value="1024"/>
+        <Setter Property="VerticalOptions"  Value="FillAndExpand"/>
+    </Style>
+
+    <!--Image Styles-->
+    <Style TargetType="Image" x:Key="CalendarImageStyle">
+        <Setter Property="HeightRequest"  Value="30"/>
+        <Setter Property="Margin"  Value="0,0,15,0"/>
+        <Setter Property="HorizontalOptions"  Value="End"/>
+        <Setter Property="VerticalOptions"  Value="Center"/>
+        <Setter Property="BackgroundColor"  Value="Transparent"/>
+    </Style>
+
+    <Style TargetType="Image" x:Key="PickerImageStyle">
+        <Setter Property="HeightRequest"  Value="30"/>
+        <Setter Property="Margin"  Value="0,0,15,0"/>
+        <Setter Property="HorizontalOptions"  Value="End"/>
+        <Setter Property="BackgroundColor"  Value="Transparent"/>
+    </Style>
+
+    <Style TargetType="Image" x:Key="ButtonImageStyle">
+        <Setter Property="HeightRequest"  Value="50"/>
+        <Setter Property="WidthRequest"  Value="25"/>
+        <Setter Property="VerticalOptions"  Value="Fill"/>
+        <Setter Property="HorizontalOptions"  Value="Center"/>
+    </Style>
+
+    <Style TargetType="ImageButton" x:Key="ImageButtonWidth30Heigth20">
+        <Setter Property="HeightRequest"  Value="20"/>
+        <Setter Property="WidthRequest"  Value="30"/>
+        <Setter Property="BackgroundColor"  Value="Transparent"/>
+        <Setter Property="Padding"  Value="1"/>
+    </Style>
+
+    <!--Date Picker Styles-->
+    <Style TargetType="DatePicker" x:Key="DatePickerStyle">
+        <Setter Property="TextColor"  Value="Transparent"/>
+        <Setter Property="FontSize"  Value="10"/>
+        <Setter Property="HeightRequest"  Value="45"/>
+        <Setter Property="WidthRequest"  Value="350"/>
+        <Setter Property="Margin"  Value="0,0,18,0"/>
+        <Setter Property="HorizontalOptions"  Value="End"/>
+    </Style>
+
+    <!--ListView Styles-->
+    <Style TargetType="ListView" x:Key="ListviewStyle">
+        <Setter Property="BackgroundColor"  Value="{StaticResource SeparatorColor}"/>
+        <Setter Property="SeparatorColor"  Value="{StaticResource Primary}"/>
+        <Setter Property="HorizontalOptions"  Value="Start"/>
+    </Style>
+
+    <!--ScrollView Styles-->
+    <Style TargetType="ScrollView" x:Key="GoalsListScrollViewStyle">
+        <Setter Property="Padding"  Value="0,0,0,80"/>
+    </Style>
+
+    <!--BoxView-->
+    <Style TargetType="BoxView" x:Key="FieldSeparator">
+        <Setter Property="BackgroundColor" Value="{StaticResource FieldSeparatorColor}" />
+        <Setter Property="HeightRequest" Value="1" />
+        <Setter Property="Margin" Value="0,30" />
+    </Style>
+
+    <!--StackLayout Styles-->
+    <Style TargetType="StackLayout" x:Key="GoalListHeaderStyle">
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+    </Style>
+    <Style TargetType="customControls:TruncateMultiLineLabel" x:Key="GoalTitleStyle">
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="Padding" Value="0" />
+        <Setter Property="TextColor" Value="{StaticResource Primary}" />
+        <Setter Property="FontSize" Value="15" />
+    </Style>
+    
+    <!--Grid styles-->
+    <Style TargetType="Grid" x:Key="PlanMyDayGridStyle">
+        <Setter Property="HeightRequest" Value="125" />
+        <Setter Property="WidthRequest" Value="125" />
+    </Style>
+</ResourceDictionary>

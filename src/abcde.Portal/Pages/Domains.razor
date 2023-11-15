@@ -1,0 +1,114 @@
+﻿@page "/Domain"
+@using abcde.Portal.ViewModels;
+
+@inject Microsoft.Extensions.Localization.IStringLocalizer<App> BaseLocale
+@inherits Microsoft.AspNetCore.Components.OwningComponentBase<abcde.Client.APIGateway>
+
+<div class="container">
+    <div>
+        <Modal @ref="popupmodal" title="@BaseLocale["Create New Domain"].Value" IsVerticallyCentered="true" OnHidden="OnHideModalClick">
+            <BodyTemplate>
+                <EditForm Model="@model" OnValidSubmit="@SubmitForm">
+                    <DataAnnotationsValidator />
+                  
+                  @*  <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" @bind-value="model.Name">
+                        <label for="form">@BaseLocale["Domain Name"].Value</label>
+                        <ValidationMessage For="@(() => model.Name)" />
+                    </div>*@
+                    <div class="form-floating mb-3" >
+                        <input type="text" class="form-control" aria-required="true" @bind="@model.Name" id="domain" @oninput="@Search" @onclick="HideDropdown" role="presentation" autocomplete="off" />
+                        <label for="domain" class="form-label">@BaseLocale["Domain Name"].Value</label>
+                        <ValidationMessage For="@(() => model.Name)" />
+                        <ul class="display-dropdown" style="display:@displayDropdown">
+                                @foreach (var item in filteredItems)
+                                {
+                                    <li @onclick="() => SelectItem(item)">@item</li>
+                                }
+                                         
+                        </ul>
+                    </div>
+
+
+                    @if (Users != null && Users.Count() > 0)
+                    {
+                        <div class="form-floating mb-3">
+                            <select class="form-control" @bind="SelectedUserId" @onclick="HideDropdownOnUserClick">
+                                <option disabled selected>@BaseLocale["Select a User"].Value</option>
+                                @foreach (var user in Users)
+                                {
+                                    if (string.IsNullOrEmpty(user.FirstName))
+                                    {
+                                        <option value="@user.Id">@user.Email</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@user.Id">@user.FirstName @user.LastName</option>
+                                    }
+                                }
+
+                            </select>
+                            <label for="form-label country">@BaseLocale["Domain Head"].Value</label>
+                            @* <ValidationMessage For="@(() => model.User)" />*@
+                        </div>
+                        @*<div class="form-floating mb-3">
+                    <InputSelect class="form-control" @bind-Value="StudentsList" multiple="@true">
+                    <option  disabled selected>@BaseLocale["Select a User"].Value</option>
+                    @foreach (var user in Users)
+                    {
+                    if (string.IsNullOrEmpty(user.FirstName))
+                    {
+                    <option value="@user.Id">@user.Email</option>
+                    }
+                    else
+                    {
+                    <option value="@user.Id">@user.FirstName @user.LastName</option>
+                    }
+                    }
+
+                    </InputSelect>
+                    <label for="form-label country">@BaseLocale["Domain Users"].Value</label>
+                    </div>*@
+                    }
+
+                    @* <div class="form-floating mb-3">
+                    <select class="form-control multiselect"  multiple="multiple" data_placeholder="select a student">
+                    @foreach (var student in Students)
+                    {
+                    <option value="@student">@student</option>
+                    }
+                    </select>
+                    </div> *@
+
+                    <div>
+                        <Button Color="ButtonColor.Secondary" @onclick="OnHideModalClick">@BaseLocale["Close"].Value</Button>
+                        <Button Color="ButtonColor.Primary" Class="float-end" Type="ButtonType.Submit">@BaseLocale["Save"].Value</Button>
+                    </div>
+
+                </EditForm>
+            </BodyTemplate>
+        </Modal>
+
+        <Button Color="ButtonColor.Primary" @onclick="OnShowModalClick">@BaseLocale["Add New Domain"].Value</Button>
+    </div>
+
+    <div class="mt-5">
+        <Grid @ref="grid" TItem="DomainViewModel" class="table table-hover table-bordered table-striped" DataProvider="DomainDataProvider" AllowPaging="true" 
+            Responsive="true" PageSize="10" AllowFiltering="true">
+            <GridColumn TItem="DomainViewModel" HeaderText="@BaseLocale["Domain Name"].Value" PropertyName="Name">
+                @context.Name
+            </GridColumn>
+            <GridColumn TItem="DomainViewModel" HeaderText="@BaseLocale["Domain Head"].Value" PropertyName="DomainHead">
+                @context.DomainHead
+            </GridColumn>
+            <GridColumn TItem="DomainViewModel" HeaderText="@BaseLocale["Users Count"].Value" PropertyName="UsersCount">
+                @context.UsersCount
+            </GridColumn>
+            <GridColumn TItem="DomainViewModel" HeaderText=""  AllowFiltering="false">
+                <Button Color="ButtonColor.Secondary" @onclick="() => EditDomain(context.Id)">@BaseLocale["Edit"].Value</Button>
+                @* <Button Color="ButtonColor.Danger" @onclick="OnShowModalClick">@BaseLocale["Delete"].Value</Button> *@
+            </GridColumn>
+        </Grid>
+    </div>
+    <Toasts class="p-3" Messages="messages" Delay="3000" AutoHide="true" Placement="ToastsPlacement.TopRight" />
+</div>

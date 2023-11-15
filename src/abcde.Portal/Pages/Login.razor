@@ -1,0 +1,69 @@
+﻿@page "/Login"
+@layout AuthLayout
+@inject NavigationManager NM
+@inject Microsoft.Extensions.Localization.IStringLocalizer<abcde.Portal.Shared.Resources.Resource> BaseLocale
+@inherits Microsoft.AspNetCore.Components.OwningComponentBase<abcde.Client.APIGateway>
+@inject CookieService CookieService
+@using Microsoft.AspNetCore.Localization;
+@using abcde.Model.Constants;
+@using abcde.Portal.Services;
+
+<LoginComponent OnLogin="LoginUser" OnForgotPassword="@(() => NM.NavigateTo(ForgotPasswordUrl))" ErrorMessage="@errorMessage" SpinnerDisplay="@Spinner" DisabledButton="@Disabled" />
+
+@code {
+
+    private string errorMessage;
+
+    private const string ChangePasswordUrl = "account/changePassword";
+    private const string ForgotPasswordUrl = "account/forgotPassword";
+    private string Spinner { get; set; }
+    private bool Disabled { get; set; }
+
+    /// <summary>
+    /// Login user
+    /// </summary>
+    /// <param name="model"></param>
+    /// <returns></returns>
+    private async Task LoginUser(LoginModel model)
+    {
+        try
+        {
+            Disabled = true;
+            Spinner = "inline-block";
+            var result = await Service.IdentityService.Login(model);
+
+
+            if (result.Successful == true)
+            {
+                string redirectUrl = string.Empty;
+                if (!string.IsNullOrEmpty(result.TenantConnCode))
+                {
+                    Service.SetConnectionStringCode(result.TenantConnCode);
+                    Service.SetHeaders();
+                    await CookieService.SetCookie(CommonConstants.ConnectionStringCodeCookieName, result.TenantConnCode, 300); // Cookie will expire in 300 days
+                }
+
+                if (result.HasChangedPassword == false)
+                {
+                    redirectUrl = ChangePasswordUrl;
+                }
+
+                NM.NavigateTo($"Authentication/Login?token={result.Token}&redirectUrl={redirectUrl}", true);
+            }
+            else
+            {
+                errorMessage = BaseLocale["InvalidEmailorPassword"].Value;
+                Disabled = false;
+                Spinner = "none";
+            }
+        }
+        catch (Exception ex)
+        {
+            Log.Error($"Message : {ex.Message}");
+
+            errorMessage = BaseLocale["InvalidEmailorPassword"].Value;
+            Disabled = false;
+            Spinner = "none";
+        }
+    }
+}

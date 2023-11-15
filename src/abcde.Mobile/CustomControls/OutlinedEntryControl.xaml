@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Name="OutlinedEntry"
+             x:Class="abcde.Mobile.CustomControls.OutlinedEntryControl">
+    <VerticalStackLayout>
+    <Grid>
+        <!-- Entry Frame -->
+        <Frame x:Name="EntryFrame" Style="{StaticResource FrameStyle}" />
+
+        <!-- Entry label -->
+            <Label x:Name="PlaceHolderLabel" 
+                   Text="{Binding Placeholder,Source={x:Reference OutlinedEntry}}"
+                   Style="{StaticResource EntryPlaceholderStyle}"/>
+
+            <!-- Customized Entry -->
+        <Entry x:Name="TextBox"
+                              IsPassword="{Binding Password,Source={x:Reference OutlinedEntry}}"
+                              VerticalOptions="FillAndExpand"
+                              Text="{Binding Text,Source={x:Reference OutlinedEntry},Mode=TwoWay}"
+                              IsReadOnly="{Binding IsReadOnly,Source={x:Reference OutlinedEntry},Mode=TwoWay}"
+                              VerticalTextAlignment="Center" MaxLength="128"
+                              Margin="10"
+                              PropertyChanged="TextBox_PropertyChanged"
+                              Focused="TextBox_Focused"
+                              Unfocused="TextBox_Unfocused"
+                              TextChanged="OnTextChanged" />
+
+
+            <Label IsVisible="false"  x:Name="showpassword" VerticalTextAlignment="Center" Style="{StaticResource ShowLabel}"
+                   Margin="0,0,15,0" HorizontalOptions="End">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="ImageButton_Clicked" />
+            </Label.GestureRecognizers>
+        </Label>
+    </Grid>
+    </VerticalStackLayout>
+</ContentView>

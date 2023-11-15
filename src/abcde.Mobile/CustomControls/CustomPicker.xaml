@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Name="custompicker"
+             x:Class="abcde.Mobile.CustomControls.CustomPicker">
+    <VerticalStackLayout>
+        <Grid RowDefinitions="*,*">
+            <Frame x:Name="EntryFrame" 
+                   Style="{StaticResource FrameStyle}"/>
+            <!-- Entry label -->
+            <Label x:Name="PlaceHolderLabel"                   
+                   Text="{Binding Placeholder,Source={x:Reference custompicker}}"
+                   Style="{StaticResource EntryPlaceholderStyle}"/>
+
+            <!-- Customized Entry -->
+            <Entry x:Name="TextBox"                   
+                   Text="{Binding Text,Source={x:Reference custompicker},Mode=TwoWay}"
+                   PropertyChanged="TextBox_PropertyChanged"
+                   IsReadOnly="True"
+                   Focused="TextBox_Focused"
+                   Unfocused="TextBox_Unfocused"
+                   TextChanged="OnTextChanged"
+                   Style="{StaticResource CustomizedEntryStyle}">
+                <Entry.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ImageButton_Clicked" />
+                </Entry.GestureRecognizers>
+            </Entry>
+
+            <Image IsVisible="false"  
+                   x:Name="showimage"
+                   Style="{StaticResource PickerImageStyle}" >
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ImageButton_Clicked" />
+                </Image.GestureRecognizers>
+            </Image>
+            <ListView x:Name="listView" IsVisible="false" Grid.Row="1" 
+                      Style="{StaticResource ListviewStyle}"
+                      ItemSelected="ListView_ItemSelected" 
+                      SelectedItem="{Binding SelectedItem, Source={x:Reference custompicker}}" 
+                      ItemsSource="{Binding Source={x:Reference custompicker}, Path=ItemsSource}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding .}" TextColor="{StaticResource Primary}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </VerticalStackLayout>
+</ContentView>

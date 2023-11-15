@@ -1,0 +1,10 @@
+2023-11-10 09:36:23.945 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-10 09:36:24.567 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-10 09:36:25.058 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-10 09:36:25.067 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-10 09:37:04.462 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-10 09:37:04.942 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-11-10 09:39:46.775 +05:30 [ERR] {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":"00000000-0000-0000-0000-000000000000","tenantId":null,"tenantConnCode":null}
+2023-11-10 09:39:46.810 +05:30 [ERR] Message : {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":"00000000-0000-0000-0000-000000000000","tenantId":null,"tenantConnCode":null}
+2023-11-10 09:40:01.385 +05:30 [ERR] {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":"00000000-0000-0000-0000-000000000000","tenantId":null,"tenantConnCode":null}
+2023-11-10 09:40:01.416 +05:30 [ERR] Message : {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":"00000000-0000-0000-0000-000000000000","tenantId":null,"tenantConnCode":null}

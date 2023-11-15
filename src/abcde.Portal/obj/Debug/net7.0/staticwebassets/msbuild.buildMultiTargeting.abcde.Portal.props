@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\abcde.Portal.props" />
+</Project>

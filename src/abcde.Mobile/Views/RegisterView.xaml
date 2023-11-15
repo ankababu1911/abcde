@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<base:ContentPageBase xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                      xmlns:base="clr-namespace:abcde.Mobile.Views"
+                      x:Class="abcde.Mobile.Views.RegisterView"
+                      NavigationPage.HasNavigationBar="False"
+                      xmlns:viewModels="clr-namespace:abcde.Mobile.ViewModels"
+                      x:DataType="viewModels:RegisterViewModel"
+                      BackgroundColor="{StaticResource PageBgColor}"
+                      Title="RegisterView">
+    <AbsoluteLayout Padding="40,0"  VerticalOptions="CenterAndExpand">
+        <Label  AbsoluteLayout.LayoutBounds="0,0,1,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" Margin="2,0,0,0" Text="Register" TextColor="#000" FontAttributes="Bold" FontSize="24" HorizontalOptions="FillAndExpand"/>
+        <Entry Text="{Binding Email,Mode=TwoWay}" IsEnabled="{Binding IsInProgress,Converter={StaticResource InverseBooleanConverter}}" AbsoluteLayout.LayoutBounds="0,50,1,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" Placeholder="Email" HorizontalOptions="FillAndExpand"/>
+        <Entry Text="{Binding Password,Mode=TwoWay}" IsEnabled="{Binding IsInProgress,Converter={StaticResource InverseBooleanConverter}}" AbsoluteLayout.LayoutBounds="0,100,1,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" Placeholder="Password" IsPassword="True"  HorizontalOptions="FillAndExpand"/>
+        <Entry Text="{Binding ConfirmPassword,Mode=TwoWay}" IsEnabled="{Binding IsInProgress,Converter={StaticResource InverseBooleanConverter}}" AbsoluteLayout.LayoutBounds="0,150,1,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" Placeholder="Confirm Password" IsPassword="True"  HorizontalOptions="FillAndExpand"/>
+        <Button  AbsoluteLayout.LayoutBounds="0,220,1,40" IsEnabled="{Binding IsInProgress,Converter={StaticResource InverseBooleanConverter}}" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"  HorizontalOptions="FillAndExpand" Text="Create Account" TextColor="White" BackgroundColor="Black" Command="{Binding RegisterCommand}"/>
+        <HorizontalStackLayout  IsEnabled="{Binding IsInProgress,Converter={StaticResource InverseBooleanConverter}}" Spacing="5" AbsoluteLayout.LayoutBounds="0,290,1,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" HorizontalOptions="Center">
+            <Label Text="Already have an account?" FontSize="15" HorizontalOptions="FillAndExpand"/>
+            <Label Text="Login" TextColor="#0000EE" FontSize="15" HorizontalOptions="FillAndExpand">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="LoginTapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </HorizontalStackLayout>
+        <ActivityIndicator AbsoluteLayout.LayoutBounds="0,120,1,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" IsRunning="{Binding IsInProgress}" IsVisible="{Binding IsInProgress}" Scale="1.5"/>
+    </AbsoluteLayout>
+</base:ContentPageBase>

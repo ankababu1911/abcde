@@ -1,0 +1,1093 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\abcde.Portal.bundle.scp.css",
+      "PackagePath": "staticwebassets\\abcde.Portal.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\Bootstrap fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\css\\Bootstrap fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\Bootstrap fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\css\\Bootstrap fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-5.2.3\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-5.2.3\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\img\\calendar-icon.svg",
+      "PackagePath": "staticwebassets\\img\\calendar-icon.svg"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\js\\User.js",
+      "PackagePath": "staticwebassets\\js\\User.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\js\\cookie.js",
+      "PackagePath": "staticwebassets\\js\\cookie.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.bootstrap5.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.bootstrap5.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.bulma.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.bulma.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.bulma.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.bulma.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.dataTables.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.dataTables.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.dataTables.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.foundation.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.foundation.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.foundation.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.jqueryui.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.semanticui.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.semanticui.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.semanticui.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\dataTables.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\jquery.dataTables.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\jquery.dataTables.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\images\\sort_asc.png"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\images\\sort_both.png"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\images\\sort_desc.png"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.bootstrap5.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.bootstrap5.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.bulma.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.bulma.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.bulma.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.bulma.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.dataTables.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.dataTables.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.dataTables.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.foundation.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.foundation.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.foundation.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.foundation.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.jqueryui.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.jqueryui.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.jqueryui.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.semanticui.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.semanticui.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.semanticui.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\dataTables.semanticui.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\DataTables-1.13.6\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\DataTables-1.13.6\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.bootstrap4.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.bootstrap5.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.bootstrap5.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.bulma.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.bulma.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.bulma.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.bulma.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.dataTables.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.dataTables.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.dataTables.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.foundation.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.foundation.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.foundation.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.jqueryui.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.semanticui.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.semanticui.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.semanticui.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\css\\responsive.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\dataTables.responsive.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\dataTables.responsive.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\dataTables.responsive.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\dataTables.responsive.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.bootstrap4.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.bootstrap5.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.bootstrap5.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.bulma.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.bulma.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.bulma.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.bulma.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.dataTables.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.dataTables.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.dataTables.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.foundation.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.foundation.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.foundation.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.foundation.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.jqueryui.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.jqueryui.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.jqueryui.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.semanticui.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.semanticui.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.semanticui.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\Responsive-2.5.0\\js\\responsive.semanticui.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.bootstrap.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.bootstrap4.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.bootstrap5.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.bootstrap5.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.bulma.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.bulma.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.bulma.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.bulma.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.dataTables.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.dataTables.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.dataTables.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.foundation.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.foundation.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.foundation.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.foundation.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.jqueryui.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.jqueryui.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.jqueryui.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.jqueryui.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.semanticui.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.semanticui.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.semanticui.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\css\\rowReorder.semanticui.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\dataTables.rowReorder.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\dataTables.rowReorder.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\dataTables.rowReorder.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\dataTables.rowReorder.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.bootstrap.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.bootstrap4.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.bootstrap5.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.bootstrap5.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.bootstrap5.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.bulma.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.bulma.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.bulma.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.bulma.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.dataTables.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.dataTables.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.dataTables.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.foundation.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.foundation.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.foundation.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.foundation.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.jqueryui.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.jqueryui.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.jqueryui.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.jqueryui.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.semanticui.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.semanticui.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.semanticui.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\RowReorder-1.4.1\\js\\rowReorder.semanticui.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\datatables.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\datatables.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\datatables.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\datatables.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\datatables.min.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\datatables.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\DataTables\\datatables.min.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\datatables.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\AUTHORS.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\AUTHORS.txt"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\external\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\external\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\index.html",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\index.html"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\jquery-ui.structure.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\jquery-ui.structure.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\jquery-ui.structure.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\jquery-ui.structure.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\jquery-ui.theme.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\jquery-ui.theme.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\jquery-ui.theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\jquery-ui.theme.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery-ui-1.13.2\\package.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui-1.13.2\\package.json"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\css\\select2-bootstrap-5-theme.css",
+      "PackagePath": "staticwebassets\\lib\\select2\\css\\select2-bootstrap-5-theme.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\css\\select2-bootstrap-5-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\select2\\css\\select2-bootstrap-5-theme.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\css\\select2.css",
+      "PackagePath": "staticwebassets\\lib\\select2\\css\\select2.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\lib\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\af.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\af.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\ar.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ar.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\az.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\az.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\bg.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\bg.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\bn.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\bn.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\bs.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\bs.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\build.txt",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\build.txt"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\ca.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ca.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\cs.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\cs.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\da.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\da.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\de.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\de.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\dsb.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\dsb.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\el.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\el.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\en.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\en.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\es.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\es.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\et.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\et.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\eu.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\eu.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\fa.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\fa.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\fi.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\fi.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\fr.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\fr.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\gl.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\gl.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\he.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\he.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\hi.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\hi.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\hr.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\hr.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\hsb.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\hsb.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\hu.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\hu.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\hy.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\hy.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\id.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\id.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\is.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\is.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\it.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\it.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\ja.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ja.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\ka.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ka.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\km.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\km.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\ko.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ko.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\lt.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\lt.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\lv.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\lv.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\mk.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\mk.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\ms.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ms.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\nb.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\nb.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\ne.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ne.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\nl.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\nl.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\pl.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\pl.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\ps.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ps.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\pt-BR.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\pt-BR.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\pt.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\pt.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\ro.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ro.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\ru.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\ru.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\sk.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\sk.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\sl.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\sl.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\sq.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\sq.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\sr-Cyrl.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\sr-Cyrl.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\sr.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\sr.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\sv.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\sv.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\th.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\th.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\tk.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\tk.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\tr.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\tr.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\uk.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\uk.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\vi.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\vi.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\zh-CN.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\zh-CN.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\i18n\\zh-TW.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\i18n\\zh-TW.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\select2.full.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\select2.full.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\select2.full.min.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\select2.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\select2.js"
+    },
+    {
+      "Id": "C:\\Babu\\Templates\\New folder\\src 2 new\\src\\abcde.Portal\\wwwroot\\lib\\select2\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\js\\select2.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.abcde.Portal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.abcde.Portal.props",
+      "PackagePath": "build\\abcde.Portal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.abcde.Portal.props",
+      "PackagePath": "buildMultiTargeting\\abcde.Portal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.abcde.Portal.props",
+      "PackagePath": "buildTransitive\\abcde.Portal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

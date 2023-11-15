@@ -1,0 +1,19 @@
+2023-10-31 09:37:05.017 +05:30 [ERR] {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":"00000000-0000-0000-0000-000000000000","tenantId":null}
+2023-10-31 09:37:05.071 +05:30 [ERR] Message : {"successful":false,"hasChangedPassword":false,"error":"Invalid email or password - please try again","token":null,"userId":"00000000-0000-0000-0000-000000000000","tenantId":null}
+2023-10-31 15:25:07.983 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-31 15:25:08.037 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-31 15:25:09.901 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-31 15:25:09.912 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-31 15:25:50.590 +05:30 [ERR] Message : Value cannot be null. (Parameter 'source')
+2023-10-31 15:26:01.989 +05:30 [ERR] Message : Value cannot be null. (Parameter 'source')
+2023-10-31 15:28:18.146 +05:30 [ERR] Message : Value cannot be null. (Parameter 'source')
+2023-10-31 16:04:01.662 +05:30 [ERR] Message : Value cannot be null. (Parameter 'source')
+2023-10-31 16:27:27.252 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-31 16:27:27.278 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-31 16:27:29.100 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-31 16:27:29.112 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-31 16:46:20.612 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-31 16:46:20.640 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-31 16:46:22.503 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-31 16:46:22.516 +05:30 [ERR] Response status code does not indicate success: 500 (Internal Server Error).
+2023-10-31 16:48:49.371 +05:30 [ERR] Message : Value cannot be null. (Parameter 'source')

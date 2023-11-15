@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="abcde.Mobile.CustomControls.CustomButton" 
+             x:Name="customButton">
+    <Frame Style="{StaticResource CustomButtonFrame}">
+        <Frame.GestureRecognizers>
+            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+        </Frame.GestureRecognizers>
+        <HorizontalStackLayout Margin="10,0,20,0" HorizontalOptions="CenterAndExpand">
+            <Image Source="add_icon.png"  HorizontalOptions="Center" VerticalOptions="Fill" HeightRequest="40"  WidthRequest="20" Margin="10,0"></Image>
+            <Label Text="{Binding Text,Source={x:Reference customButton},Mode=TwoWay}"  Style="{StaticResource CustomButtonLabel}"></Label>
+        </HorizontalStackLayout>
+    </Frame>
+</ContentView>

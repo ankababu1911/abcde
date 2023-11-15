@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<base:ContentPageBase xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                      xmlns:base="clr-namespace:abcde.Mobile.Views" 
+                      x:Class="abcde.Mobile.Views.PlanMyDayView"
+                      Title="PlanMyDayView"
+                      xmlns:template="clr-namespace:abcde.Mobile.Views.Templates"
+                      xmlns:customControls="clr-namespace:abcde.Mobile.CustomControls"
+                      xmlns:resources="clr-namespace:abcde.Mobile.Resx"
+                      xmlns:local="clr-namespace:abcde.Mobile.Localization"
+                      xmlns:viewModels="clr-namespace:abcde.Mobile.ViewModels"
+                      x:DataType="viewModels:PlanMyDayViewModel"
+                      xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+                      x:Name="PlanMyDayPage">
+    <base:ContentPageBase.Behaviors>
+        <mct:StatusBarBehavior StatusBarColor="{StaticResource Primary}" />
+    </base:ContentPageBase.Behaviors>
+    <Grid>
+        <Grid RowDefinitions="*,*">
+            <Frame Grid.Row="0" Style="{StaticResource PlayMyDayFrameStyle}" >
+                <CollectionView ItemsSource="{Binding WorkItems}" 
+                                SelectionMode="Single" 
+                                x:Name="CollectionItem">
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="3" />
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Style="{StaticResource PlayMyDayTaskFrameStyle}">
+                                <Grid RowDefinitions="2*,1*"  Style="{StaticResource PlanMyDayGridStyle}">
+                                    <Label Text="{Binding Title}"  Grid.Row="0"
+                                           Style="{StaticResource GoalTitleLabelStyle15}"/>
+                                    <Label Text="{Binding OriginalPlannedEndDateTime, StringFormat='{0:dd.MMM.yyyy}'}" VerticalOptions="Start" 
+                                           Grid.Row="1" Style="{StaticResource StandardLabelStyle10}"/>
+                                </Grid>
+                                <Frame.GestureRecognizers>
+                                    <DragGestureRecognizer CanDrag="True"              
+                                                           DragStartingCommand="{Binding BindingContext.DragStartingCommand, Source={x:Reference PlanMyDayPage}}"
+                                                           DragStartingCommandParameter="{Binding .}">
+                                    </DragGestureRecognizer>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <Frame.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" DropCommand="{Binding DropBackCommand}" />
+                </Frame.GestureRecognizers>
+            </Frame>
+            <!--Drop the Item-->
+            <Frame Grid.Row="1" Style="{StaticResource PlayMyDayFrameStyle}" >
+                <Frame.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" DropCommand="{Binding DropCommand}" />
+                </Frame.GestureRecognizers>
+                <StackLayout>
+                    <CollectionView SelectionMode="Single"  ItemsSource="{Binding Items1}"
+                                    x:Name="CollectionItem1">
+                        <CollectionView.ItemsLayout>
+                            <GridItemsLayout Orientation="Vertical" Span="3" />
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Style="{StaticResource PlayMyDayTaskFrameStyle}" 
+                                       IsVisible="{Binding AllowDrop}">
+                                    <Grid RowDefinitions="2*,1*" Style="{StaticResource PlanMyDayGridStyle}" >
+                                        <Label Text="{Binding Title}"  Grid.Row="0"
+                                               Style="{StaticResource GoalTitleLabelStyle15}" />
+                                        <Label Text="{Binding OriginalPlannedEndDateTime, StringFormat='{0:dd.MMM.yyyy}'}" VerticalOptions="Start"
+                                               Grid.Row="1" Style="{StaticResource StandardLabelStyle10}" />
+                                    </Grid>
+                                    <Frame.GestureRecognizers>
+                                        <DragGestureRecognizer CanDrag="True" 
+                                                               DragStartingCommand="{Binding BindingContext.DragStarting2Command, Source={x:Reference PlanMyDayPage}}"
+                                                               DragStartingCommandParameter="{Binding .}">
+                                        </DragGestureRecognizer>
+                                    </Frame.GestureRecognizers>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                    <Grid ColumnDefinitions="*,50,*" Margin="5,30" VerticalOptions="EndAndExpand">
+                        <Button Text="{x:Static resources:AppResources.Back}" 
+                                Style="{StaticResource ButtonStyleLight}"
+                                BorderWidth="1" Command="{Binding BackCommand}"/>
+                        <Button Text="{x:Static resources:AppResources.Save}" 
+                                Style="{StaticResource ButtonStyle}" Grid.Column="2" 
+                                Command="{Binding SavePrioritizedTasksCommand}"/>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+        </Grid>
+        <!--ActivityIndicator-->
+        <ActivityIndicator IsRunning="{Binding IsLoading}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+                           Style="{StaticResource ActivityIndicatorStyle}" IsVisible="{Binding IsLoading}"/>
+    </Grid>
+</base:ContentPageBase>

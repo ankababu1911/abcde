@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<base:ContentPageBase xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:base="clr-namespace:abcde.Mobile.Views"
+             x:Class="abcde.Mobile.Views.GoalDetailsView"
+             xmlns:customControls="clr-namespace:abcde.Mobile.CustomControls"
+             xmlns:resources="clr-namespace:abcde.Mobile.Resx"
+             xmlns:template="clr-namespace:abcde.Mobile.Views.Templates"
+             xmlns:local="clr-namespace:abcde.Mobile.Localization"
+             xmlns:viewModel="clr-namespace:abcde.Mobile.ViewModels"
+             x:DataType="viewModel:GoalDetailViewModel"
+             BackgroundColor="{StaticResource PageBgColor}"
+             Title="GoalDetailsView" x:Name="GoalDetails">
+    <ScrollView>
+        <VerticalStackLayout Margin="20" VerticalOptions="FillAndExpand">
+            <Grid ColumnDefinitions="*,auto" Margin="0,0,0,20">
+                <Label Text="{Binding WorkItem.Title}" Grid.Column="0"
+                       Style="{StaticResource HeadingLabelStyle}"
+                       HorizontalTextAlignment="Start"
+                       VerticalOptions="Start" />
+                <ImageButton Source="edit_icon.png" Grid.Column="1"
+                             BackgroundColor="Transparent" VerticalOptions="Start"
+                             Command="{Binding EditGoalCommand}" />
+            </Grid>
+            <StackLayout IsVisible="{Binding IsVisibleProgress}" Margin="0,15">
+                <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="{Binding CompletedTasks}" FontAttributes="Bold" />
+                        <Span Text=" / " />
+                        <Span Text="{Binding TotalTasks}" FontAttributes="Bold" />
+                        <Span Text=" " />
+                        <Span Text="{local:Translate tasks completed}" />
+                    </FormattedString>
+                </Label.FormattedText>
+                </Label>
+                <Frame CornerRadius="20" Style="{StaticResource ProgressBarFrameStyle}" WidthRequest="150"  HorizontalOptions="StartAndExpand">
+                    <Frame.Margin>
+                        <OnPlatform x:TypeArguments="Thickness" Default="0,0,0,0">
+                            <On Platform="iOS" Value="0,3" />
+                        </OnPlatform>
+                    </Frame.Margin>
+                    <ProgressBar Progress="{Binding OverallProgress}" Grid.Row="1" Style="{StaticResource ProgressBarStyle}">
+                        <ProgressBar.ScaleY>
+                            <OnPlatform  x:TypeArguments="x:Double">
+                                <On Platform="iOS" Value="2" />
+                                <On Platform="Android" Value="10" />
+                            </OnPlatform>
+                        </ProgressBar.ScaleY>
+                    </ProgressBar>
+                </Frame>
+            </StackLayout>
+            <StackLayout Margin="0,20">
+                <Label Text="{Binding Description}" Style="{StaticResource StandardLabelStyle}" />
+            </StackLayout>
+
+            <Grid ColumnDefinitions="*,auto" Margin="0,10,0,0">
+                <Label Text="{Binding WorkItem.Priority}" Style="{StaticResource StandardLabelStyle}"  HorizontalOptions="Start" 
+                       IsVisible="{Binding IsPriorityVisible}"/>
+                <Label Text="{Binding OriginalPlannedEndDateTime, StringFormat='{0:dd.MMM.yyyy}'}" Style="{StaticResource StandardLabelStyle}"
+                       Grid.Column="2" HorizontalOptions="End"/>
+            </Grid>
+
+            <Grid ColumnDefinitions="*,auto,auto" Margin="0,20">
+                <Label Grid.Column="0" Text="{x:Static resources:AppResources.Tasks}"  Style="{StaticResource HeadingLabelStyle}" VerticalTextAlignment="Center" HorizontalOptions="Start" VerticalOptions="Center"/>
+                <customControls:CustomButton Text="{x:Static resources:AppResources.New}" Grid.Column="2" Command="{Binding NewTaskCommand}"/>
+            </Grid>
+            <ListView ItemsSource="{Binding TaskItems}" HasUnevenRows="True" SeparatorVisibility="None" VerticalScrollBarVisibility="Never">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell Tapped="ViewCell_Tapped">
+                            <StackLayout>
+                                <Frame HasShadow="False" BorderColor="{StaticResource Primary}" CornerRadius="5" Padding="10" Margin="0,10">
+                                    <StackLayout Spacing="10">
+                                        <Label Text="{Binding Title}" FontAttributes="Bold" FontSize="18" TextColor="{StaticResource StandardLabelColor}" />
+                                       <Label Text="{Binding Description}" FontSize="16" TextColor="{StaticResource StandardLabelColor}" />
+                                </StackLayout>
+                            <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer  Command="{Binding BindingContext.TaskViewCommand, Source={x:Reference GoalDetails}}" CommandParameter="{Binding .}"/>
+                            </Frame.GestureRecognizers>
+                                 </Frame>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <BoxView Style="{StaticResource FieldSeparator}" />
+            <Label Text="{x:Static resources:AppResources.Notes}" Style="{StaticResource HeadingLabelStyle}" />
+            <Grid RowDefinitions="auto,auto,auto"  VerticalOptions="EndAndExpand">
+                <Frame Style="{StaticResource FrameStyleHeight100}">
+                    <ScrollView VerticalScrollBarVisibility="Never">
+                        <Editor Grid.Row="0" x:Name="EditorforNotes" Style="{StaticResource CustomizedEditorStyleFont15}" Text="{Binding NoteDescription}" Margin="10,0"  Placeholder="Add a Note">
+                            <Editor.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                            </Editor.GestureRecognizers>
+                        </Editor>
+                    </ScrollView>
+                </Frame>
+                <Grid x:Name="saveandedit" Grid.Row="1" Margin="0,5" IsVisible="{Binding SaveAndCancel}" ColumnSpacing="5" ColumnDefinitions="*,Auto,Auto">
+                    <Button Text="{x:Static resources:AppResources.Save}" Clicked="OnClicktoSave" Style="{StaticResource Button16Width90}" Grid.Column="2" />
+                    <Button Text="{x:Static resources:AppResources.Cancel}" Clicked="OnClickToCancel" Style="{StaticResource Button16Width90}" TextColor="{StaticResource Black}" BackgroundColor="LightGrey" Grid.Column="1" />
+                </Grid>
+            </Grid>
+            <CollectionView x:Name="stacklayoutview" Margin="0,10,0,0"  ItemsSource="{Binding Notesviewmodel}">
+               <CollectionView.ItemsLayout>
+                    <GridItemsLayout VerticalItemSpacing="10" Orientation="Vertical" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout IsVisible="{Binding SavedNotes}">
+                            <Frame  CornerRadius="5" Padding="0">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="5*" />
+                                        <ColumnDefinition Width="1*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <ScrollView Grid.Column="0" Grid.Row="0" Margin="10,0" VerticalScrollBarVisibility="Never">
+                                        <Editor Style="{StaticResource CustomizedEditorStyleFont15}"  Text="{Binding NoteText}" x:Name="Editor_Entry" IsEnabled="{Binding IsSelected}" />
+                                        <ScrollView.Triggers>
+                                            <DataTrigger TargetType="ScrollView" Binding="{Binding IsSelected}" Value="True">
+                                                <Setter Property="HeightRequest" Value="100" />
+                                            </DataTrigger>
+                                            <DataTrigger TargetType="ScrollView" Binding="{Binding IsSelected}" Value="False">
+                                                <Setter Property="HeightRequest" Value="50" />
+                                            </DataTrigger>
+                                        </ScrollView.Triggers>
+                                    </ScrollView>
+
+                                    <Grid Grid.Column="1" Grid.Row="0" Margin="0,5,0,0" ColumnDefinitions="*,*" VerticalOptions="Start">
+                                        <ImageButton Source="edit_note.svg" Style="{StaticResource ImageButtonWidth30Heigth20}" Command="{Binding BindingContext.EditNoteCommand, Source={x:Reference GoalDetails}}" CommandParameter="{Binding .}" IsVisible="{Binding SavedNotes}" />
+                                        <ImageButton Source="note_delete.svg" Grid.Column="1" Command="{Binding BindingContext.DeleteNoteCommand, Source={x:Reference GoalDetails}}" CommandParameter="{Binding .}" IsVisible="{Binding SavedNotes}" Style="{StaticResource ImageButtonWidth30Heigth20}" />
+                                    </Grid>
+                                    <Label Text="{Binding Date, StringFormat='{0:dd.MMM.yyyy HH.mm}'}" Margin="10,0,0,10" VerticalOptions="Center" Style="{StaticResource StandardLabelStyle}" Grid.Row="1" Grid.Column="0" />
+                                </Grid>
+                                <Frame.Triggers>
+                                    <DataTrigger TargetType="Frame" Binding="{Binding IsSelected}" Value="False">
+                                        <Setter Property="BorderColor" Value="#eaeaea" />
+                                    </DataTrigger>
+                                    <DataTrigger TargetType="Frame" Binding="{Binding IsSelected}" Value="True">
+                                        <Setter Property="BorderColor" Value="{StaticResource Primary}" />
+                                    </DataTrigger>
+                                </Frame.Triggers>
+                            </Frame>
+
+                            <Grid Grid.Row="1" Margin="0,5" x:Name="ToUpdateAndClose" IsVisible="{Binding IsSelected}" ColumnSpacing="5" ColumnDefinitions="*,Auto,Auto">
+                                <Button Text="{x:Static resources:AppResources.Update}" Command="{Binding BindingContext.UpdateNoteCommand, Source={x:Reference GoalDetails}}" CommandParameter="{Binding .}" Style="{StaticResource Button16Width90}"  Grid.Column="2" />
+                                <Button Text="{x:Static resources:AppResources.Cancel}"  Command="{Binding BindingContext.CancelNoteCommand, Source={x:Reference GoalDetails}}" CommandParameter="{Binding .}"  Style="{StaticResource Button16Width90}" TextColor="{StaticResource Black}" BackgroundColor="LightGrey" Grid.Column="1" />
+                            </Grid>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <ActivityIndicator IsRunning="{Binding IsLoading}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+         Style="{StaticResource ActivityIndicatorStyle}" IsVisible="{Binding IsLoading}" />
+        </VerticalStackLayout>
+    </ScrollView>
+</base:ContentPageBase>

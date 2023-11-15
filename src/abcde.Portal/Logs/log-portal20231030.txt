@@ -1,0 +1,8 @@
+2023-10-30 09:47:29.063 +05:30 [ERR] 'fd4c17d4-7e6f-49a2-e8be-08dbd8ff2138' is an invalid JSON literal. Expected the literal 'false'. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+2023-10-30 09:50:04.416 +05:30 [ERR] 'f' is an invalid end of a number. Expected a delimiter. Path: $ | LineNumber: 0 | BytePositionInLine: 1.
+2023-10-30 09:51:32.845 +05:30 [ERR] 'c' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+2023-10-30 10:10:00.881 +05:30 [ERR] Message : Value cannot be null. (Parameter 'source')
+2023-10-30 16:49:21.139 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-30 16:49:21.166 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-30 16:49:25.713 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)
+2023-10-30 16:49:25.730 +05:30 [ERR] No connection could be made because the target machine actively refused it. (localhost:7053)

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAKjDDR/Djz0+3KhM10aoALAAAAAACAAAAAAAQZgAAAAEAACAAAABZI/wQJs7JcdmgSbO7kQMdvpIiBFy/qw+8CPvDhqhAwwAAAAAOgAAAAAIAACAAAADgAFQqshESmIPBsI7dy3ySndLHitn/FAfeOo7WYovKe4AAAAChGlgvh75sNn7/42Zxvl1M353pf7EHoWlGzVta7SlKlQb+0Mycl1uo/8xtJzn1Eg6DUENRDJbUPzSyoWdy2Qlg24tWUHAz9JdcpDQGWnoJqLWvExtnRxzykSoZbX5aDmhzvRJuWgU4tJ0JgklyQE/Nj+uW4T09z3/BxoIPLIoDV0AAAABnbZrAYyMqmCZ+qAKSTtP7xaGlgDHNnC9lNYFuJtX6ixBxREBrAKhR21R4wd8hZTVj7FWTKGxO6RaHzIvioo5Q</EncryptedPassword>
+    <History>False|2023-09-27T06:04:06.4480192Z;</History>
+    <LastFailureDetails />
+    <_PublishTargetUrl>ftps://waws-prod-am2-379.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="abcde.Client.pdb">
+      <publishTime>09/27/2023 11:31:21</publishTime>
+    </File>
+    <File Include="abcde.ComponentLibrary.pdb">
+      <publishTime>09/27/2023 11:31:23</publishTime>
+    </File>
+    <File Include="abcde.Model.pdb">
+      <publishTime>09/27/2023 11:31:20</publishTime>
+    </File>
+    <File Include="abcde.Portal.deps.json">
+      <publishTime>09/27/2023 11:32:05</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

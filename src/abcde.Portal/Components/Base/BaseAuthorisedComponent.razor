@@ -1,0 +1,75 @@
+﻿@using System.Security.Claims;
+
+@inherits Microsoft.AspNetCore.Components.OwningComponentBase<abcde.Client.APIGateway>
+@attribute [Authorize]
+
+@code {
+
+    [Inject]
+    public Microsoft.Extensions.Localization.IStringLocalizer<App> BaseLocale { get; set; }
+
+    [Inject]
+    protected NavigationManager NM { get; set; }
+
+    [Inject]
+    protected AuthenticationStateProvider AuthenticationStateProvider { get; set; }
+
+    [Inject]
+    public IAuthorizationService AuthorizationService { get; set; }
+
+    [CascadingParameter]
+    protected Task<AuthenticationState> AuthenticationState { get; set; }
+
+    [CascadingParameter]
+    protected AppStateProvider AppStateProvider { get; set; }
+
+    /// <summary>
+    /// Logged in UserId
+    /// </summary>
+    protected string UserId;
+
+    /// <summary>
+    /// Logged in TenantId
+    /// </summary>
+    protected string TenantId;
+
+    /// <summary>
+    /// Logged in Role
+    /// </summary>
+    protected string Role;
+    /// <summary>
+    /// Logged  in OrganisationName
+    /// </summary>
+
+    protected string OrganisationName;
+
+    /// <summary>
+    /// Get authenticated User, set UserId and TenantId
+    /// </summary>
+    /// <returns></returns>
+    protected override async Task OnInitializedAsync()
+    {
+        var user = (await AuthenticationState).User;
+
+        if (user != null)
+        {
+            if (user.Identity.IsAuthenticated)
+            {
+                TenantId = user.GetTenantId();
+                UserId = user.GetUserId();
+                Role = user.GetRole();
+                Service.Token = user.GetUserToken();
+                Service.TenantId = TenantId;
+                if (TenantId!=null)
+                {
+                    var Tenant = await Service.TenantService.GetAsyncString(TenantId);
+                    if (Tenant != null)
+                    {
+                        OrganisationName = Tenant.Name;
+                    }
+                }
+          
+            }
+        }
+    }
+}
